@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2020-06-11T23:01:53.334000000</meta:creation-date><dc:date>2020-06-11T23:07:40.349000000</dc:date><meta:editing-duration>PT5M47S</meta:editing-duration><meta:editing-cycles>2</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Windows_X86_64 LibreOffice_project/3d775be2011f3886db32dfd395a6a6d1ca2630ff</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="5" meta:paragraph-count="6" meta:word-count="32" meta:character-count="32" meta:non-whitespace-character-count="32"/></office:meta>
+ <office:meta><meta:creation-date>2020-06-11T23:01:53.334000000</meta:creation-date><dc:date>2020-06-15T22:44:36.612000000</dc:date><meta:editing-duration>PT1H10M4S</meta:editing-duration><meta:editing-cycles>11</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Windows_X86_64 LibreOffice_project/3d775be2011f3886db32dfd395a6a6d1ca2630ff</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="5" meta:paragraph-count="117" meta:word-count="3018" meta:character-count="3147" meta:non-whitespace-character-count="3081"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">104743</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">24675</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">10056</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">40615</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">17200</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">3836</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">123306</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">13010</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">11527</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">24673</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">10054</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">104743</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">40614</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">121941</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="ZoomFactor" config:type="short">120</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">100</config:config-item>
      <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
      <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
     </config:config-item-map-entry>
@@ -85,7 +85,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">25</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">633817</config:config-item>
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
@@ -126,28 +126,31 @@
  </office:settings>
  <office:scripts>
   <office:script script:language="ooo:Basic">
-   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
   </office:script>
  </office:scripts>
  <office:font-face-decls>
   <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="swiss"/>
   <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="思源宋体" svg:font-family="思源宋体" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="system" style:font-pitch="variable"/>
-  <style:font-face style:name="思源宋体" svg:font-family="思源宋体" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="思源宋体1" svg:font-family="思源宋体" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="思源黑体" svg:font-family="思源黑体" style:font-family-generic="system" style:font-pitch="variable"/>
  </office:font-face-decls>
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
-   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="思源宋体" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="思源宋体1" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
   </style:default-style>
   <style:default-style style:family="paragraph">
    <style:paragraph-properties fo:orphans="2" fo:widows="2" fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="0.741cm" style:writing-mode="page"/>
-   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="思源宋体" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="思源宋体1" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
   </style:default-style>
   <style:default-style style:family="table">
    <style:table-properties table:border-model="collapsing"/>
@@ -181,6 +184,17 @@
   <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="2" style:class="text">
    <style:paragraph-properties fo:margin-top="0.353cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
    <style:text-properties fo:font-size="115%" fo:font-weight="bold" style:font-size-asian="115%" style:font-weight-asian="bold" style:font-size-complex="115%" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Index_20_Heading" style:display-name="Index Heading" style:family="paragraph" style:parent-style-name="Heading" style:class="index">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="16pt" fo:font-weight="bold" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="User_20_Index_20_Heading" style:display-name="User Index Heading" style:family="paragraph" style:parent-style-name="Index_20_Heading" style:class="index">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="16pt" fo:font-weight="bold" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Index_20_1" style:display-name="Index 1" style:family="paragraph" style:parent-style-name="Index" style:class="index">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false"/>
   </style:style>
   <text:outline-style style:name="Outline">
    <text:outline-level-style text:level="1" style:num-format="">
@@ -240,14 +254,86 @@
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
   </style:style>
-  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties fo:break-before="page"/>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0001526a"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties officeooo:paragraph-rsid="00076472"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0007ad24"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="16.1000003814697pt" fo:font-weight="bold" style:font-name-asian="思源黑体" style:font-size-asian="16.1000003814697pt" style:font-weight-asian="bold" style:font-name-complex="Arial" style:font-size-complex="16.1000003814697pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="start" style:justify-single-word="false" fo:break-before="page"/>
+   <style:text-properties officeooo:paragraph-rsid="00000019"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Heading_20_2">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0009abd9"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties style:font-name="思源宋体" style:font-name-asian="思源宋体"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0009abd9"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:font-name="思源宋体" style:font-name-asian="思源宋体"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="思源宋体" style:font-name-asian="思源宋体"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="思源宋体" officeooo:paragraph-rsid="00076472" style:font-name-asian="思源宋体"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="思源宋体" style:font-name-asian="思源宋体"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:font-name="思源宋体" officeooo:paragraph-rsid="0007ad24" style:font-name-asian="思源宋体"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:font-name="思源宋体" officeooo:paragraph-rsid="0009abd9" style:font-name-asian="思源宋体"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
    <style:text-properties style:font-name="Liberation Sans" fo:font-size="16.1000003814697pt" fo:font-weight="bold" style:font-name-asian="思源黑体" style:font-size-asian="16.1000003814697pt" style:font-weight-asian="bold" style:font-name-complex="Arial" style:font-size-complex="16.1000003814697pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:page-layout style:name="pm1">
-   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:footnote-max-height="0cm">
+   <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
     <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
    </style:page-layout-properties>
    <style:header-style/>
@@ -268,19 +354,142 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
    <text:h text:style-name="P1" text:outline-level="1">诗歌鉴赏</text:h>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2">一、表达效果</text:h>
-   <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="P2">二、结构</text:p>
-   <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="P2">三、塑造人物形象</text:p>
-   <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="P2">四、表达情感</text:p>
-   <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="Text_20_body"/>
-   <text:p text:style-name="P2">五、其他</text:p>
+   <text:h text:style-name="P12" text:outline-level="2">一、表达效果</text:h>
+   <text:p text:style-name="P3">1.羌村三首（其二）</text:p>
+   <text:p text:style-name="P15">2.五松山送殷淑</text:p>
+   <text:p text:style-name="P21">4.登裴秀才迪小台</text:p>
+   <text:p text:style-name="P21">5.兔丝 </text:p>
+   <text:p text:style-name="P15"/>
+   <text:h text:style-name="P2" text:outline-level="2">二、结构</text:h>
+   <text:p text:style-name="P3"/>
+   <text:h text:style-name="P2" text:outline-level="2">三、塑造人物形象</text:h>
+   <text:p text:style-name="P15">3.学诸进士作精卫衔石填海</text:p>
+   <text:p text:style-name="P15"/>
+   <text:h text:style-name="P2" text:outline-level="2">四、表达情感</text:h>
+   <text:p text:style-name="P15">3.学诸进士作精卫衔石填海</text:p>
+   <text:p text:style-name="P21">5.兔丝 </text:p>
+   <text:p text:style-name="P9">1.羌村三首（其二） </text:p>
+   <text:p text:style-name="P4">羌村三首（其二） </text:p>
+   <text:p text:style-name="P4">杜甫 </text:p>
+   <text:p text:style-name="P4">晚岁迫偷生，还家少欢趣。</text:p>
+   <text:p text:style-name="P4">娇儿不离膝，畏我复却去。</text:p>
+   <text:p text:style-name="P4">忆昔好追凉，故绕池边树。</text:p>
+   <text:p text:style-name="P4">萧萧北风劲，抚事煎百虑。</text:p>
+   <text:p text:style-name="P4">赖知禾黍收，已觉糟床注。</text:p>
+   <text:p text:style-name="P4">如今足斟酌，且用慰迟暮。</text:p>
+   <text:p text:style-name="P3"><text:s text:c="2"/>[注]公元 757 年，诗人言事触怒肃宗，被迫回到因战乱十余月未通音信的羌村，与家小相聚，写下《羌村三首》。糟床，榨酒的器具。 </text:p>
+   <text:p text:style-name="P3">9.简要赏析“娇儿不离膝，畏我复却去”两句的表达效果。（5 分） </text:p>
+   <text:p text:style-name="P3">10.古人评点：诗人“身虽到家，而心实忧国”。请结合后八句诗，简要分析这样评说的原因。（6 分） </text:p>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3">答案：</text:p>
+   <text:p text:style-name="P3">9．细节描写逼真感人地刻画幼子与久别之父见面情状。（1 分）“不离膝”写娇儿久别后乍见父亲的惊喜、亲昵、不舍；（1 分）“畏我”点明娇儿久视父亲后因陌生而畏惧的心理。</text:p>
+   <text:p text:style-name="P3">（1 分）“复却去”表现了娇儿发觉父亲“少欢趣”，害怕而不解的心理（或：害怕、担心我又离家的心理）。（1 分）侧面表明诗人落魄凄苦的现状。（1 分）</text:p>
+   <text:p text:style-name="P3">10.（1）中四句：对比今昔家中生活，寄托胸中苦闷。“抚事”直说思量当前国事。“煎百虑”极写忧国深沉的情感煎熬。（2）后四句：名写酒，实说愁，是迟暮之年、壮志难伸的愤激之辞。“且用”表现了诗人深沉无奈与痛楚之情。（6 分。每点 3 分） </text:p>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P5">2.五松山送殷淑</text:p>
+   <text:p text:style-name="P4">五松山送殷淑</text:p>
+   <text:p text:style-name="P4">李白</text:p>
+   <text:p text:style-name="P4">秀色发江左，风流奈若何？仲文了不还，独立扬清波。</text:p>
+   <text:p text:style-name="P4">载酒五松山，颓然白云歌。中天度落月，万里遥相过。</text:p>
+   <text:p text:style-name="P4">抚酒惜此月，流光畏蹉跎。明日别离去，连峰郁嵯峨。</text:p>
+   <text:p text:style-name="P3">注：仲文，殷仲文。《晋书·殷仲文传》云“有才藻，美容貌”。</text:p>
+   <text:p text:style-name="P3">9. 请简要分析本诗前四句的作用。(5分)</text:p>
+   <text:p text:style-name="P3">10. 诗歌中间六句(“载酒五松山……流光畏蹉跎”)描绘了哪些场景？(6分)</text:p>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3">答案：</text:p>
+   <text:p text:style-name="P3">9. (5分) 前两句用反问句式，后两句把殷淑比作殷仲文，表现了殷淑的才貌非凡；赞赏殷淑，为下文表现惜别作铺垫。(第一点3分，第二点2分)</text:p>
+   <text:p text:style-name="P3">10. (6分) 载酒歌吟；月下相聚； 抚酒抒怀(感喟，感慨，叹息)。(每点2分)</text:p>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3"/>
+   <text:p text:style-name="P3">3.学诸进士作精卫衔石填海</text:p>
+   <text:p text:style-name="P4">学诸进士作精卫衔石填海</text:p>
+   <text:p text:style-name="P4">韩 愈</text:p>
+   <text:p text:style-name="P4">鸟有偿冤者，终年抱寸诚。</text:p>
+   <text:p text:style-name="P4">口衔山石细，心望海波平。</text:p>
+   <text:p text:style-name="P4">渺渺功难见，区区命已轻。</text:p>
+   <text:p text:style-name="P4">人皆讥造次，我独赏专精。</text:p>
+   <text:p text:style-name="P4">岂计休无日，惟应尽此生。</text:p>
+   <text:p text:style-name="P4"><text:soft-page-break/>何惭刺客传，不著报雠名。</text:p>
+   <text:p text:style-name="P3">9. 本读前六句是怎样运用对比手法勾勒精卫形象的？请简要分析。</text:p>
+   <text:p text:style-name="P3">10. 诗歌后六句表达了作者什么样的人生态度？</text:p>
+   <text:p text:style-name="P3">【答案】</text:p>
+   <text:p text:style-name="P3">9. “终年”与“寸诚”对比，表现了决心之坚；细石与大海对比，表现了抱负之大；任务重与性命轻对比，表现了命运之悲。</text:p>
+   <text:p text:style-name="P3">10. 独抒己见，不随大流；但求尽力，不计结果；贵在实干，无意显名。</text:p>
+   <text:p text:style-name="P3">【解析】</text:p>
+   <text:p text:style-name="P3">【9题详解】</text:p>
+   <text:p text:style-name="P3">本题考査考生对诗歌表达技巧的把握能力。这类题目，考查学生对诗句的理解能力，同时也考查对诗句内容、技巧以的把握能力，内容涉及对诗歌的表达技技巧的鉴赏。解答此类题目，首先要审题，即明确题目的具体要求，然后注意了解诗歌的创作背景，并逐句翻译诗句，把握诗歌的意象，分析诗歌营造的意境，思考诗歌中运用的表现手法，最后有条理的按照题目要求整理出答案即可。本题要求简要分析诗歌前六句怎样运用对比手法勾勒精卫形象。已经明确了手法是对比手法，只需要找出对比手法，并且分析对比手法怎样勾勒精卫形象即可。诗歌中“山石细”和“海波平”两词形成对比，嘴里衔着山上的细石，决心把滔滔的海浪填平，从中表现“精卫”的雄心壮志和坚强的意志；“抱寸诚”的决心“衔细石”的举动与“海波平”的宏图大愿形成巨大反差，在对比中充分表现精卫的心诚志坚。</text:p>
+   <text:p text:style-name="P3">【10题详解】</text:p>
+   <text:p text:style-name="P3">本题考査学生对诗歌思想感情的把握能力。这类题目，考查学生对诗句的理解能力，同时也考查对诗句内容以及情感的把握能力，涉及对诗歌思想感情的鉴赏。解答此类题目，首先要审题，即明确题目的具体要求，然后注意了解诗歌的创作背景，并逐句翻译诗句，把握诗歌的意象，分析诗歌营造的意境，领悟作者表达的思想情感，最后有条理的按照题目要求整理出答案即可。题目要求结合诗歌后六句分析诗歌表达了作者怎样的人生态度。诗中“人皆”与“我独”形成对比，表现了作者傲然不屈于俗见的鲜明态度；“岂计”“惟应”体现出作者对精卫坚持不懈的奋斗精神的肯定，侧面表现了作者孜孜以求毫不妥协的人生追求；尾联作者以“精卫”与刺客相类比，再次表达了对积极进取、锲而不舍的精神品质的褒扬与欣赏。</text:p>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16">4.登裴秀才迪小台</text:p>
+   <text:p text:style-name="P19">登裴秀才迪小台</text:p>
+   <text:p text:style-name="P19">王　维</text:p>
+   <text:p text:style-name="P19">端居不出户，满目望云山。</text:p>
+   <text:p text:style-name="P19">落日鸟边下，秋原人外闲。</text:p>
+   <text:p text:style-name="P19">遥知远林际，不见此檐间。</text:p>
+   <text:p text:style-name="P19">好客多乘月，应门莫上关。</text:p>
+   <text:p text:style-name="P16">(1)“满目望云山”句中“望”字一作“空”，你认为这两个字用哪个更好？请说明理由。</text:p>
+   <text:p text:style-name="P16">答案　“望”：照应题目中的“登台”，引出后面描写的景物。或“空”：①营造空旷的意境；②流露出超然心态。</text:p>
+   <text:p text:style-name="P16">(2)诗眼是诗歌中表达情感最精练传神的词语，这首诗的诗眼是什么？为什么？请简要分析。</text:p>
+   <text:p text:style-name="P16">答案　这首诗的诗眼是“闲”字。①景之闲，山林自在，鸟儿悠然，秋原无忧。②心之闲，诗人在道友裴迪的亭台上，遥望远山，赏飞鸟落日，与山林相伴，闲适自得。③境之闲，诗歌营造了一个安闲的诗境，境界安闲，人心安闲，表现了诗人寄情山水、与友相谐，远离人世争斗的宁静心境与诗意境界。</text:p>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"><text:soft-page-break/>5.兔丝 </text:p>
+   <text:p text:style-name="P19">兔丝 </text:p>
+   <text:p text:style-name="P19">元稹 </text:p>
+   <text:p text:style-name="P19">人生莫依倚，依倚事不成。 </text:p>
+   <text:p text:style-name="P19">君看兔丝蔓，依倚榛与荆。 </text:p>
+   <text:p text:style-name="P19">荆榛易蒙密，百鸟撩乱鸣。 </text:p>
+   <text:p text:style-name="P19">下有狐兔穴，奔走亦纵横。 </text:p>
+   <text:p text:style-name="P19">樵童斫将去，柔蔓与之并。 </text:p>
+   <text:p text:style-name="P19">翳荟生可耻，束缚死无名。 </text:p>
+   <text:p text:style-name="P19">桂树月中出，珊瑚石上生。 </text:p>
+   <text:p text:style-name="P19">俊鹘度海食，应龙升天行。 </text:p>
+   <text:p text:style-name="P19">灵物本特达，不复相缠萦。 </text:p>
+   <text:p text:style-name="P19">缠萦竟何者，荆棘与飞茎。 </text:p>
+   <text:p text:style-name="P16">【注】翳荟：草木茂盛可供障蔽之处。 </text:p>
+   <text:p text:style-name="P16">（1）这首诗围绕“兔丝”主要设置了两方面的对比，请简要分析。 </text:p>
+   <text:p text:style-name="P16">（2）这首诗寄托了诗人哪些思想情感？ </text:p>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16">答案： </text:p>
+   <text:p text:style-name="P16">（1）①把兔丝自身前后命运进行对比，依附荆榛时茂密繁盛，荆榛被砍，兔丝也受牵连；②把兔丝和桂树、珊瑚等“灵物”进行对比，兔丝因依附而死，不明不白，灵物独立明达。 </text:p>
+   <text:p text:style-name="P16">（2）①人生要独立、正行。②以兔丝隐喻攀附者，表达了对他们的批判与警告。③以围绕荆榛形成的生态圈隐喻奸邪、污浊的官场，表达警惕、鄙视之意。 </text:p>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P21">6.乌栖曲</text:p>
+   <text:p text:style-name="P19">乌栖曲</text:p>
+   <text:p text:style-name="P19">李白</text:p>
+   <text:p text:style-name="P19">姑苏台上乌栖时，吴王宫里醉西施。</text:p>
+   <text:p text:style-name="P19">吴歌楚舞欢未毕，青山欲衔半边日。</text:p>
+   <text:p text:style-name="P19">银箭金壶漏水多。起着秋月坠江波。</text:p>
+   <text:p text:style-name="P19">东方渐高①奈乐何!</text:p>
+   <text:p text:style-name="P17">注:高，同“皜”，白。</text:p>
+   <text:p text:style-name="P16">9.这首诗用了许多笔墨来描写时间的推移，请分析这样写的作用。 (5分)</text:p>
+   <text:p text:style-name="P16">10. 关于吴越争霸，李白还写过《越中览古》:“越王勾践破吴归，战士还家尽锦衣。富女如花满春殿，只今唯有鹧鸪飞。”说说这两首体主旨的异同。 <text:s/>(6分)</text:p>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16">答</text:p>
+   <text:p text:style-name="P16">9. 以时间推移为线索，叙写吴王宫哀乐的全过程，极写吴王耽于享乐；(3分)</text:p>
+   <text:p text:style-name="P16">借日暮乌栖、青山行日、秋月坠江等富于象征色彩的物象来写时间的流逝，点出吴国覆灭的历史轨迹。(2分)</text:p>
+   <text:p text:style-name="P16">10.同:抒发千古兴亡之感。(2分)</text:p>
+   <text:p text:style-name="P16">异:《乌栖曲》讽刺吴王沉迷声色荒废政务;还包含悲喜无常、欢娱苦少的人生嗟悼。(2分)《越中览古》：感慨人事变化和盛衰无常。(2分) </text:p>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P21">7.万岁楼</text:p>
+   <text:p text:style-name="P19">万岁楼</text:p>
+   <text:p text:style-name="P19"><text:soft-page-break/>王昌龄</text:p>
+   <text:p text:style-name="P19">江上巍巍万岁楼，不知经历几千秋。</text:p>
+   <text:p text:style-name="P19">年年喜见山长在，日日悲看水独流。</text:p>
+   <text:p text:style-name="P19">猿狖何曾离暮岭，鸬鹚空自泛寒洲。</text:p>
+   <text:p text:style-name="P19">谁堪登望云烟里，向晚茫茫发旅愁。</text:p>
+   <text:p text:style-name="P16">9．简要分析颔联和颈联的表达效果。</text:p>
+   <text:p text:style-name="P16">10．根据全诗，概括作者所表达的思想感情。</text:p>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"><text:s/></text:p>
+   <text:p text:style-name="P16">答案：</text:p>
+   <text:p text:style-name="P16">9．拟人；将万岁楼人格化，万岁楼喜见和悲看着山川和江水；选取猿狖、鸬鹚等典型意象，渲染了凄凉的氛围；借景抒情，表达了时间流逝江山依旧的感慨；为尾联抒发情感做了铺垫。</text:p>
+   <text:p text:style-name="P16">10．独在异乡的漂泊之感，羁旅之思；感叹时光流逝（答“年华老去”也可以）；世事变幻的沧桑之感。 <text:s/></text:p>
   </office:text>
  </office:body>
 </office:document>
