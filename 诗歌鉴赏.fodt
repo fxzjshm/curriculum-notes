@@ -492,26 +492,26 @@
    <style:text-properties style:font-name="思源宋体" style:font-name-asian="思源宋体"/>
   </style:style>
   <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties style:line-height-at-least="4.471cm"/>
+   <style:paragraph-properties style:line-height-at-least="0cm"/>
   </style:style>
   <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties style:line-height-at-least="4.471cm"/>
+   <style:paragraph-properties style:line-height-at-least="0cm"/>
    <style:text-properties fo:font-weight="bold"/>
   </style:style>
   <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties style:line-height-at-least="4.471cm"/>
+   <style:paragraph-properties style:line-height-at-least="0cm"/>
    <style:text-properties style:font-name="宋体"/>
   </style:style>
   <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties style:line-height-at-least="4.471cm"/>
+   <style:paragraph-properties style:line-height-at-least="0cm"/>
    <style:text-properties fo:letter-spacing="normal"/>
   </style:style>
   <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties style:line-height-at-least="4.471cm"/>
+   <style:paragraph-properties style:line-height-at-least="0cm"/>
    <style:text-properties fo:letter-spacing="-0.053cm"/>
   </style:style>
   <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:paragraph-properties style:line-height-at-least="4.471cm"/>
+   <style:paragraph-properties style:line-height-at-least="0cm"/>
    <style:text-properties fo:letter-spacing="-0.026cm"/>
   </style:style>
   <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Standard">
@@ -718,8 +718,7 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
-   </text:sequence-decls><draw:frame draw:style-name="fr1" draw:name="框架1" text:anchor-type="page" text:anchor-page-number="1" svg:x="0cm" svg:y="0cm" svg:width="0.041cm" style:rel-width="100%" svg:height="0.041cm" draw:z-index="0">
-    <draw:text-box fo:min-height="100%">
+   </text:sequence-decls>
      <text:p text:style-name="P53">三、古诗词鉴赏（</text:p>
      <text:p text:style-name="P54">11</text:p>
      <text:p text:style-name="P53">分）</text:p>
@@ -840,254 +839,6 @@
      <text:p text:style-name="P57">“明朝”二字暗示考生，此句所写</text:p>
      <text:p text:style-name="P57">都为虚景，是诗人的想象；“烟雨桐江岸”是景，</text:p>
      <text:p text:style-name="P53">“占丹枫系钓舟”是人物的活动，在这样 </text:p>
-    </draw:text-box>
-   </draw:frame><draw:frame draw:style-name="fr1" draw:name="框架2" text:anchor-type="page" text:anchor-page-number="1" svg:x="0cm" svg:y="0cm" svg:width="0.041cm" style:rel-width="100%" svg:height="0.041cm" draw:z-index="1">
-    <draw:text-box fo:min-height="100%">
-     <text:p text:style-name="P53">三、古诗词鉴赏（</text:p>
-     <text:p text:style-name="P54">11</text:p>
-     <text:p text:style-name="P53">分）</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">阅读下面这首宋诗，完成</text:p>
-     <text:p text:style-name="P55">10~11</text:p>
-     <text:p text:style-name="P53">题。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">秋</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">兴</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">陆</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">游</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">白发萧萧欲满头，归来三见故山秋。</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">醉凭高阁乾坤迮，病入中年日月遒。</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">百战铁衣空许国，五更画角只生愁。</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">明朝烟雨桐江岸，且占丹枫系钓舟。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">【注】①迮：狭窄。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">10</text:p>
-     <text:p text:style-name="P53">．根据中间两联，概括作者“愁”的原因。（</text:p>
-     <text:p text:style-name="P53">6</text:p>
-     <text:p text:style-name="P53">分）</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">11</text:p>
-     <text:p text:style-name="P53">．简要赏析尾联的表达效果。（</text:p>
-     <text:p text:style-name="P53">5</text:p>
-     <text:p text:style-name="P53">分）</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">【答案】</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">10</text:p>
-     <text:p text:style-name="P56">．壮志难酬，怀抱未展；中年多病，时光日迫；国土沦丧，战事未宁。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">11</text:p>
-     <text:p text:style-name="P53">．以“丹枫”照应“秋”；寓情于景，想象自己将来烟雨垂钓的画面，表达了自己隐逸的</text:p>
-     <text:p text:style-name="P53">愿望，也暗含无奈和苦闷之情。</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">【解析】</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">10</text:p>
-     <text:p text:style-name="P53">．试题分析：题干要求“根据中间两联，概括作者‘愁’的原因”，这是针对诗歌情感设</text:p>
-     <text:p text:style-name="P53">题。诗歌的情感</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">考点定位：评价文学作品的思想内容和作者的观点态度。能力层级为鉴赏评价</text:p>
-     <text:p text:style-name="P53">D</text:p>
-     <text:p text:style-name="P53">。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">【名师点睛】</text:p>
-     <text:p text:style-name="P53">解答诗歌情感的答题方法如下：</text:p>
-     <text:p text:style-name="P53">①从题材入手。</text:p>
-     <text:p text:style-name="P53">同一类题材往往都表达类似的</text:p>
-     <text:p text:style-name="P53">情感。</text:p>
-     <text:p text:style-name="P53">②从抒情议论的句子入手，</text:p>
-     <text:p text:style-name="P56">这些句子是直接表达思想感情的地方。</text:p>
-     <text:p text:style-name="P56">③从作者和创作背</text:p>
-     <text:p text:style-name="P53">景入手，做到知人论世。</text:p>
-     <text:p text:style-name="P53">④从题目入手，</text:p>
-     <text:p text:style-name="P53">题目往往交代了诗歌的主要内容，</text:p>
-     <text:p text:style-name="P53">创作的缘由和主</text:p>
-     <text:p text:style-name="P53">要表现的思想感情。</text:p>
-     <text:p text:style-name="P53">⑤从景物形象入手，</text:p>
-     <text:p text:style-name="P53">景物形象衬托或烘托诗人的情感或借景抒情。</text:p>
-     <text:p text:style-name="P53">⑥从</text:p>
-     <text:p text:style-name="P53">用典入手，</text:p>
-     <text:p text:style-name="P57">典故是将历史和现实对照，含蓄地表达自己的观点、态度和情感。同时还要注意</text:p>
-     <text:p text:style-name="P53">诗文前面的小序和诗文后面的注解。</text:p>
-     <text:p text:style-name="P53">对于本题，</text:p>
-     <text:p text:style-name="P56">考生必须先关注诗人陆游所处的朝代和他的</text:p>
-     <text:p text:style-name="P57">遭遇以及一贯的思想情感，然后再分析颔联和颈联所写的内容，圈出导致“愁”的内容，可</text:p>
-     <text:p text:style-name="P57">以是国家朝代的状况，可以是个人的遭遇，可以是所见之景，</text:p>
-     <text:p text:style-name="P53">也可能是所思之事，</text:p>
-     <text:p text:style-name="P53">从本题中</text:p>
-     <text:p text:style-name="P56">来看，主要是南宋的国运衰微、战事连连，是个人的壮志未酬、身体多病。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">11</text:p>
-     <text:p text:style-name="P53">．试题分析：题干要求“简要赏析尾联的表达效果”，这是针对诗歌的尾联和尾句设题，</text:p>
-     <text:p text:style-name="P57">是江苏卷的常考题型。首先分析“尾联”所使用的技巧，然后结合具体内容分析效果。</text:p>
-     <text:p text:style-name="P53">“明</text:p>
-     <text:p text:style-name="P57">朝烟雨桐江岸，且占丹枫系钓舟”，尾联主要是写景，</text:p>
-     <text:p text:style-name="P57">“明朝”说明这是想象之景，诗人想</text:p>
-     <text:p text:style-name="P56">象自己明朝在烟雨之中于桐江岸边把小船系在</text:p>
-     <text:p text:style-name="P57">“枫树”上去垂钓，</text:p>
-     <text:p text:style-name="P53">画面很悠闲，反映了作者</text:p>
-     <text:p text:style-name="P57">的愿望——隐逸，但结合颔联和颈联可以知道，这一愿望是建立在国土沦丧、战事连年、自</text:p>
-     <text:p text:style-name="P53">己壮志未酬又中年多病的基础之上，故这一愿望中就饱含无奈和苦闷之情，诗人寓情于景，</text:p>
-     <text:p text:style-name="P53">借景抒怀，</text:p>
-     <text:p text:style-name="P53">把一个中年多病、</text:p>
-     <text:p text:style-name="P53">空有报国之志却无法施展的忧国忧民的诗人形象呈现在读者的</text:p>
-     <text:p text:style-name="P53">面前。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">考点定位：鉴赏文学作品的技巧。鉴赏文学作品的语言。能力层级为鉴赏评价</text:p>
-     <text:p text:style-name="P53">D</text:p>
-     <text:p text:style-name="P53">。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P57">【技巧点拨】解答本题之前，应先审题，明确考查的方向，“赏析尾联的表达效果”，</text:p>
-     <text:p text:style-name="P53">“赏</text:p>
-     <text:p text:style-name="P58">析”是考查诗歌的语言，</text:p>
-     <text:p text:style-name="P57">“尾联”又暗示了思考的方向。作为诗歌的尾联和尾句，一般有如</text:p>
-     <text:p text:style-name="P53">下特点：直抒胸臆和以景结情，运用典故和想象（虚写）。明确方向之后再来看这个题目，</text:p>
-     <text:p text:style-name="P53">目标非常明确。</text:p>
-     <text:p text:style-name="P53">“明朝烟雨桐江岸，且占丹枫系钓舟”，</text:p>
-     <text:p text:style-name="P57">“明朝”二字暗示考生，此句所写</text:p>
-     <text:p text:style-name="P57">都为虚景，是诗人的想象；“烟雨桐江岸”是景，</text:p>
-     <text:p text:style-name="P53">“占丹枫系钓舟”是人物的活动，在这样 </text:p>
-    </draw:text-box>
-   </draw:frame><draw:frame draw:style-name="fr1" draw:name="框架3" text:anchor-type="page" text:anchor-page-number="1" svg:x="0cm" svg:y="0cm" svg:width="0.041cm" style:rel-width="100%" svg:height="0.041cm" draw:z-index="2">
-    <draw:text-box fo:min-height="100%">
-     <text:p text:style-name="P53">三、古诗词鉴赏（</text:p>
-     <text:p text:style-name="P54">11</text:p>
-     <text:p text:style-name="P53">分）</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">阅读下面这首宋诗，完成</text:p>
-     <text:p text:style-name="P55">10~11</text:p>
-     <text:p text:style-name="P53">题。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">秋</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">兴</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">陆</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">游</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">白发萧萧欲满头，归来三见故山秋。</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">醉凭高阁乾坤迮，病入中年日月遒。</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">百战铁衣空许国，五更画角只生愁。</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">明朝烟雨桐江岸，且占丹枫系钓舟。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">【注】①迮：狭窄。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">10</text:p>
-     <text:p text:style-name="P53">．根据中间两联，概括作者“愁”的原因。（</text:p>
-     <text:p text:style-name="P53">6</text:p>
-     <text:p text:style-name="P53">分）</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">11</text:p>
-     <text:p text:style-name="P53">．简要赏析尾联的表达效果。（</text:p>
-     <text:p text:style-name="P53">5</text:p>
-     <text:p text:style-name="P53">分）</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">【答案】</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">10</text:p>
-     <text:p text:style-name="P56">．壮志难酬，怀抱未展；中年多病，时光日迫；国土沦丧，战事未宁。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">11</text:p>
-     <text:p text:style-name="P53">．以“丹枫”照应“秋”；寓情于景，想象自己将来烟雨垂钓的画面，表达了自己隐逸的</text:p>
-     <text:p text:style-name="P53">愿望，也暗含无奈和苦闷之情。</text:p>
-     <text:p text:style-name="P53"> </text:p>
-     <text:p text:style-name="P53">【解析】</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">10</text:p>
-     <text:p text:style-name="P53">．试题分析：题干要求“根据中间两联，概括作者‘愁’的原因”，这是针对诗歌情感设</text:p>
-     <text:p text:style-name="P53">题。诗歌的情感</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">考点定位：评价文学作品的思想内容和作者的观点态度。能力层级为鉴赏评价</text:p>
-     <text:p text:style-name="P53">D</text:p>
-     <text:p text:style-name="P53">。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">【名师点睛】</text:p>
-     <text:p text:style-name="P53">解答诗歌情感的答题方法如下：</text:p>
-     <text:p text:style-name="P53">①从题材入手。</text:p>
-     <text:p text:style-name="P53">同一类题材往往都表达类似的</text:p>
-     <text:p text:style-name="P53">情感。</text:p>
-     <text:p text:style-name="P53">②从抒情议论的句子入手，</text:p>
-     <text:p text:style-name="P56">这些句子是直接表达思想感情的地方。</text:p>
-     <text:p text:style-name="P56">③从作者和创作背</text:p>
-     <text:p text:style-name="P53">景入手，做到知人论世。</text:p>
-     <text:p text:style-name="P53">④从题目入手，</text:p>
-     <text:p text:style-name="P53">题目往往交代了诗歌的主要内容，</text:p>
-     <text:p text:style-name="P53">创作的缘由和主</text:p>
-     <text:p text:style-name="P53">要表现的思想感情。</text:p>
-     <text:p text:style-name="P53">⑤从景物形象入手，</text:p>
-     <text:p text:style-name="P53">景物形象衬托或烘托诗人的情感或借景抒情。</text:p>
-     <text:p text:style-name="P53">⑥从</text:p>
-     <text:p text:style-name="P53">用典入手，</text:p>
-     <text:p text:style-name="P57">典故是将历史和现实对照，含蓄地表达自己的观点、态度和情感。同时还要注意</text:p>
-     <text:p text:style-name="P53">诗文前面的小序和诗文后面的注解。</text:p>
-     <text:p text:style-name="P53">对于本题，</text:p>
-     <text:p text:style-name="P56">考生必须先关注诗人陆游所处的朝代和他的</text:p>
-     <text:p text:style-name="P57">遭遇以及一贯的思想情感，然后再分析颔联和颈联所写的内容，圈出导致“愁”的内容，可</text:p>
-     <text:p text:style-name="P57">以是国家朝代的状况，可以是个人的遭遇，可以是所见之景，</text:p>
-     <text:p text:style-name="P53">也可能是所思之事，</text:p>
-     <text:p text:style-name="P53">从本题中</text:p>
-     <text:p text:style-name="P56">来看，主要是南宋的国运衰微、战事连连，是个人的壮志未酬、身体多病。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">11</text:p>
-     <text:p text:style-name="P53">．试题分析：题干要求“简要赏析尾联的表达效果”，这是针对诗歌的尾联和尾句设题，</text:p>
-     <text:p text:style-name="P57">是江苏卷的常考题型。首先分析“尾联”所使用的技巧，然后结合具体内容分析效果。</text:p>
-     <text:p text:style-name="P53">“明</text:p>
-     <text:p text:style-name="P57">朝烟雨桐江岸，且占丹枫系钓舟”，尾联主要是写景，</text:p>
-     <text:p text:style-name="P57">“明朝”说明这是想象之景，诗人想</text:p>
-     <text:p text:style-name="P56">象自己明朝在烟雨之中于桐江岸边把小船系在</text:p>
-     <text:p text:style-name="P57">“枫树”上去垂钓，</text:p>
-     <text:p text:style-name="P53">画面很悠闲，反映了作者</text:p>
-     <text:p text:style-name="P57">的愿望——隐逸，但结合颔联和颈联可以知道，这一愿望是建立在国土沦丧、战事连年、自</text:p>
-     <text:p text:style-name="P53">己壮志未酬又中年多病的基础之上，故这一愿望中就饱含无奈和苦闷之情，诗人寓情于景，</text:p>
-     <text:p text:style-name="P53">借景抒怀，</text:p>
-     <text:p text:style-name="P53">把一个中年多病、</text:p>
-     <text:p text:style-name="P53">空有报国之志却无法施展的忧国忧民的诗人形象呈现在读者的</text:p>
-     <text:p text:style-name="P53">面前。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P53">考点定位：鉴赏文学作品的技巧。鉴赏文学作品的语言。能力层级为鉴赏评价</text:p>
-     <text:p text:style-name="P53">D</text:p>
-     <text:p text:style-name="P53">。</text:p>
-     <text:p text:style-name="P53">  </text:p>
-     <text:p text:style-name="P57">【技巧点拨】解答本题之前，应先审题，明确考查的方向，“赏析尾联的表达效果”，</text:p>
-     <text:p text:style-name="P53">“赏</text:p>
-     <text:p text:style-name="P58">析”是考查诗歌的语言，</text:p>
-     <text:p text:style-name="P57">“尾联”又暗示了思考的方向。作为诗歌的尾联和尾句，一般有如</text:p>
-     <text:p text:style-name="P53">下特点：直抒胸臆和以景结情，运用典故和想象（虚写）。明确方向之后再来看这个题目，</text:p>
-     <text:p text:style-name="P53">目标非常明确。</text:p>
-     <text:p text:style-name="P53">“明朝烟雨桐江岸，且占丹枫系钓舟”，</text:p>
-     <text:p text:style-name="P57">“明朝”二字暗示考生，此句所写</text:p>
-     <text:p text:style-name="P57">都为虚景，是诗人的想象；“烟雨桐江岸”是景，</text:p>
-     <text:p text:style-name="P53">“占丹枫系钓舟”是人物的活动，在这样 </text:p>
-    </draw:text-box>
-   </draw:frame>
    <text:h text:style-name="P1" text:outline-level="1">诗歌鉴赏</text:h>
    <text:h text:style-name="P3" text:outline-level="2">一、表达效果</text:h>
    <text:p text:style-name="P4">1.羌村三首（其二）</text:p>
