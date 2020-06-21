@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2020-06-11T23:01:53.334000000</meta:creation-date><dc:date>2020-06-21T22:24:12.838000000</dc:date><meta:editing-duration>PT5H47M58S</meta:editing-duration><meta:editing-cycles>9</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Windows_X86_64 LibreOffice_project/3d775be2011f3886db32dfd395a6a6d1ca2630ff</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="16" meta:paragraph-count="419" meta:word-count="13234" meta:character-count="13596" meta:non-whitespace-character-count="13493"/></office:meta>
+ <office:meta><meta:creation-date>2020-06-11T23:01:53.334000000</meta:creation-date><dc:date>2020-06-21T23:29:01.213000000</dc:date><meta:editing-duration>PT6H11M</meta:editing-duration><meta:editing-cycles>12</meta:editing-cycles><meta:generator>LibreOffice/6.4.4.2$Windows_X86_64 LibreOffice_project/3d775be2011f3886db32dfd395a6a6d1ca2630ff</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="16" meta:paragraph-count="438" meta:word-count="12572" meta:character-count="12985" meta:non-whitespace-character-count="12889"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">172066</config:config-item>
-   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">24135</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">12285</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">62623</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">1969</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">8978</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">11795</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">9871</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">224677</config:config-item>
-     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">172066</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">24134</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">184349</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">2501</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">40614</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">1969</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">62623</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">10945</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">74417</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -85,7 +85,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">2188467</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2487113</config:config-item>
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
@@ -632,15 +632,46 @@
   </style:style>
   <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
-   <style:text-properties style:font-name="思源宋体" fo:font-size="10.5pt" style:font-name-asian="思源宋体" style:font-size-asian="10.5pt" style:font-size-complex="10.5pt"/>
   </style:style>
   <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
-   <style:text-properties style:font-name="思源宋体" fo:font-size="10.5pt" officeooo:paragraph-rsid="000c18b5" style:font-name-asian="思源宋体" style:font-size-asian="10.5pt" style:font-size-complex="10.5pt"/>
+   <style:text-properties officeooo:paragraph-rsid="0009abd9"/>
   </style:style>
   <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0022e7fc"/>
+  </style:style>
+  <style:style style:name="P95" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="00237c38"/>
+  </style:style>
+  <style:style style:name="P96" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="002461fe"/>
+  </style:style>
+  <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0025f349"/>
+  </style:style>
+  <style:style style:name="P98" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:font-name="思源宋体" fo:font-size="10.5pt" style:font-name-asian="思源宋体" style:font-size-asian="10.5pt" style:font-size-complex="10.5pt"/>
+  </style:style>
+  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:font-name="思源宋体" fo:font-size="10.5pt" officeooo:paragraph-rsid="000c18b5" style:font-name-asian="思源宋体" style:font-size-asian="10.5pt" style:font-size-complex="10.5pt"/>
+  </style:style>
+  <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
    <style:text-properties style:font-name="思源宋体" fo:font-size="10.5pt" officeooo:paragraph-rsid="00186d2c" style:font-name-asian="思源宋体" style:font-size-asian="10.5pt" style:font-size-complex="10.5pt"/>
+  </style:style>
+  <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:font-name="思源宋体" officeooo:paragraph-rsid="0009abd9" style:font-name-asian="思源宋体"/>
+  </style:style>
+  <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%"/>
+   <style:text-properties style:font-name="思源宋体" officeooo:paragraph-rsid="00237c38" style:font-name-asian="思源宋体"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties style:font-name="Liberation Sans" fo:font-size="16.1000003814697pt" fo:font-weight="bold" style:font-name-asian="思源黑体" style:font-size-asian="16.1000003814697pt" style:font-weight-asian="bold" style:font-name-complex="Arial" style:font-size-complex="16.1000003814697pt" style:font-weight-complex="bold"/>
@@ -655,79 +686,79 @@
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#111111" fo:letter-spacing="normal" style:font-style-asian="normal" style:font-weight-asian="normal"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#111111" fo:letter-spacing="normal" style:font-weight-asian="normal"/>
-  </style:style>
-  <style:style style:name="T6" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#111111" style:font-name="simsun" fo:font-size="10.5pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal"/>
   </style:style>
-  <style:style style:name="T7" style:family="text">
+  <style:style style:name="T6" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:font-name="微软雅黑" fo:font-size="12.5pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-name-asian="微软雅黑1" style:font-size-asian="12.5pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="微软雅黑1"/>
   </style:style>
-  <style:style style:name="T8" style:family="text">
+  <style:style style:name="T7" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:font-name="微软雅黑" fo:font-size="12.5pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:letter-kerning="false" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-name-asian="微软雅黑1" style:font-size-asian="12.5pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="微软雅黑1" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T9" style:family="text">
+  <style:style style:name="T8" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:font-name="微软雅黑" fo:font-size="12.5pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-name-asian="微软雅黑1" style:font-size-asian="12.5pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-name-complex="微软雅黑1" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T10" style:family="text">
+  <style:style style:name="T9" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="微软雅黑1"/>
   </style:style>
-  <style:style style:name="T11" style:family="text">
+  <style:style style:name="T10" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:letter-kerning="false" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="微软雅黑1" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T12" style:family="text">
+  <style:style style:name="T11" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" fo:background-color="#ffffff" loext:char-shading-value="0" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-name-complex="微软雅黑1" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T13" style:family="text">
+  <style:style style:name="T12" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#333333" style:font-name="Verdana" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:letter-kerning="false" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Verdana1" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T14" style:family="text">
+  <style:style style:name="T13" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#333333" style:font-name="Verdana" fo:font-size="12.5pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:letter-kerning="false" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-name-asian="微软雅黑1" style:font-size-asian="12.5pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Verdana1" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T15" style:family="text">
+  <style:style style:name="T14" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#333333" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:letter-kerning="false" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Verdana1" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T16" style:family="text">
+  <style:style style:name="T15" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#333333" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:letter-kerning="false" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Verdana1" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T17" style:family="text">
+  <style:style style:name="T16" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#1e1e1e" style:font-name="宋体1" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:letter-kerning="false" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="宋体2" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T18" style:family="text">
+  <style:style style:name="T17" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#1e1e1e" style:font-name="宋体1" fo:font-size="12.5pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:letter-kerning="false" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-name-asian="微软雅黑1" style:font-size-asian="12.5pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="宋体2" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T19" style:family="text">
+  <style:style style:name="T18" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#1e1e1e" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" style:letter-kerning="false" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="宋体2" style:language-complex="ar" style:country-complex="none"/>
   </style:style>
-  <style:style style:name="T20" style:family="text">
+  <style:style style:name="T19" style:family="text">
    <style:text-properties style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-weight-asian="normal"/>
   </style:style>
-  <style:style style:name="T21" style:family="text">
+  <style:style style:name="T20" style:family="text">
    <style:text-properties fo:font-size="10.5pt" fo:font-style="normal" fo:font-weight="normal"/>
   </style:style>
-  <style:style style:name="T22" style:family="text">
+  <style:style style:name="T21" style:family="text">
    <style:text-properties fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal"/>
   </style:style>
-  <style:style style:name="T23" style:family="text">
+  <style:style style:name="T22" style:family="text">
    <style:text-properties style:font-name="Microsoft Yahei" fo:font-size="10.5pt" fo:font-style="normal" fo:font-weight="normal"/>
   </style:style>
-  <style:style style:name="T24" style:family="text">
+  <style:style style:name="T23" style:family="text">
    <style:text-properties style:font-name-asian="Microsoft Yahei" style:font-size-asian="10.5pt" style:font-style-asian="normal" style:font-weight-asian="normal"/>
   </style:style>
-  <style:style style:name="T25" style:family="text">
+  <style:style style:name="T24" style:family="text">
    <style:text-properties fo:font-style="normal"/>
   </style:style>
-  <style:style style:name="T26" style:family="text">
+  <style:style style:name="T25" style:family="text">
    <style:text-properties fo:font-style="normal" fo:font-weight="normal"/>
   </style:style>
-  <style:style style:name="T27" style:family="text">
+  <style:style style:name="T26" style:family="text">
    <style:text-properties style:font-style-asian="normal"/>
   </style:style>
-  <style:style style:name="T28" style:family="text">
+  <style:style style:name="T27" style:family="text">
    <style:text-properties style:font-style-asian="normal" style:font-weight-asian="normal"/>
   </style:style>
-  <style:style style:name="T29" style:family="text">
+  <style:style style:name="T28" style:family="text">
    <style:text-properties style:font-name="思源宋体" fo:font-size="10.5pt" style:font-name-asian="思源宋体" style:font-size-asian="10.5pt" style:font-size-complex="10.5pt"/>
+  </style:style>
+  <style:style style:name="T29" style:family="text">
+   <style:text-properties style:font-name="思源宋体" style:font-name-asian="思源宋体"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
    <style:text-properties loext:padding="0cm" loext:border="none"/>
@@ -743,6 +774,12 @@
   </style:style>
   <style:style style:name="T34" style:family="text">
    <style:text-properties style:language-complex="ar" style:country-complex="none"/>
+  </style:style>
+  <style:style style:name="T35" style:family="text">
+   <style:text-properties fo:background-color="transparent" loext:char-shading-value="0"/>
+  </style:style>
+  <style:style style:name="T36" style:family="text">
+   <style:text-properties fo:background-color="transparent" loext:char-shading-value="0" style:font-style-asian="normal" style:font-weight-asian="normal"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="44" style:layout-grid-base-height="0.55cm" style:layout-grid-ruby-height="0cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="true" style:layout-grid-display="true" style:layout-grid-base-width="0.37cm" style:layout-grid-snap-to="true" style:footnote-max-height="0cm">
@@ -766,20 +803,61 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
    <text:h text:style-name="P1" text:outline-level="1">诗歌鉴赏</text:h>
-   <text:h text:style-name="P3" text:outline-level="2">一、表达效果</text:h>
+   <text:h text:style-name="P3" text:outline-level="2">一、<text:span text:style-name="T35">表达</text:span>效果</text:h>
    <text:p text:style-name="P4">1.羌村三首（其二）</text:p>
    <text:p text:style-name="P9">2.五松山送殷淑</text:p>
    <text:p text:style-name="P18">4.登裴秀才迪小台</text:p>
    <text:p text:style-name="P18">5.兔丝 </text:p>
-   <text:p text:style-name="P9"/>
+   <text:p text:style-name="P9"><text:span text:style-name="T29">6.乌栖曲</text:span></text:p>
+   <text:p text:style-name="P9">7.万岁楼</text:p>
+   <text:p text:style-name="P94"><text:span text:style-name="T29">8.秋夜曲</text:span></text:p>
+   <text:p text:style-name="P94"><text:span text:style-name="T29">9.立秋有感寄苏子美</text:span></text:p>
+   <text:p text:style-name="P94"><text:span text:style-name="T29">10.宿山寺</text:span></text:p>
+   <text:p text:style-name="P95"><text:span text:style-name="T29">17.玉楼春</text:span></text:p>
+   <text:p text:style-name="P95"><text:span text:style-name="T29">18.桂州腊夜</text:span></text:p>
+   <text:p text:style-name="P94"><text:span text:style-name="T29">19.落叶</text:span></text:p>
+   <text:p text:style-name="P94"><text:span text:style-name="T29">20.感皇恩·出京门有感</text:span></text:p>
+   <text:p text:style-name="P96"><text:span text:style-name="T29">22.秋兴</text:span></text:p>
+   <text:p text:style-name="P96"><text:span text:style-name="T29">23.八声甘州</text:span></text:p>
+   <text:p text:style-name="P97"><text:span text:style-name="T29">27.秋日题窦员外崇</text:span></text:p>
+   <text:p text:style-name="P97"><text:span text:style-name="T29">28.休暇日访王侍御不遇德里新居</text:span></text:p>
+   <text:p text:style-name="P97"><text:span text:style-name="T29">29.访隐者不遇成二绝（其二）</text:span></text:p>
+   <text:p text:style-name="P96"><text:span text:style-name="T29"/></text:p>
+   <text:p text:style-name="P9"><text:span text:style-name="T29"/></text:p>
+   <text:p text:style-name="P9"><text:span text:style-name="T29"/></text:p>
    <text:h text:style-name="P2" text:outline-level="2">二、结构</text:h>
+   <text:p text:style-name="P4">10.宿山寺</text:p>
+   <text:p text:style-name="P4">11.关河令</text:p>
+   <text:p text:style-name="P4">12.归朝欢·和苏坚伯固</text:p>
+   <text:p text:style-name="P4">13.望蓟门</text:p>
+   <text:p text:style-name="P4">14.和裴迪登蜀州东亭送客逢早梅相忆见寄</text:p>
+   <text:p text:style-name="P95">15.春日忆李白</text:p>
+   <text:p text:style-name="P95">16.忆秦娥·邯郸道上望丛台有感</text:p>
+   <text:p text:style-name="P95">18.桂州</text:p>
+   <text:p text:style-name="P95">20.感皇恩·出京门有感腊夜</text:p>
+   <text:p text:style-name="P95"/>
    <text:p text:style-name="P4"/>
    <text:h text:style-name="P2" text:outline-level="2">三、塑造人物形象</text:h>
    <text:p text:style-name="P9">3.学诸进士作精卫衔石填海</text:p>
+   <text:p text:style-name="P9">17.玉楼春</text:p>
    <text:p text:style-name="P9"/>
-   <text:h text:style-name="P2" text:outline-level="2">四、表达情感</text:h>
+   <text:h text:style-name="P2" text:outline-level="2">四、<text:span text:style-name="T35">表达</text:span>情感、主旨</text:h>
    <text:p text:style-name="P9">3.学诸进士作精卫衔石填海</text:p>
-   <text:p text:style-name="P18">5.兔丝 </text:p>
+   <text:p text:style-name="P18">5.兔丝</text:p>
+   <text:p text:style-name="P18"><text:soft-page-break/>6.乌栖曲</text:p>
+   <text:p text:style-name="P18">7.万岁楼</text:p>
+   <text:p text:style-name="P18">8.秋夜曲</text:p>
+   <text:p text:style-name="P18">9.立秋有感寄苏子美</text:p>
+   <text:p text:style-name="P18">11.关河令</text:p>
+   <text:p text:style-name="P102">12.归朝欢·和苏坚伯固</text:p>
+   <text:p text:style-name="P102">17.玉楼春</text:p>
+   <text:p text:style-name="P102">18.桂州腊夜</text:p>
+   <text:p text:style-name="P102">20.感皇恩·出京门有感</text:p>
+   <text:p text:style-name="P18">23.八声甘州</text:p>
+   <text:p text:style-name="P18">25.寄和州刘使君</text:p>
+   <text:p text:style-name="P18">26.醉眠</text:p>
+   <text:p text:style-name="P18">27.秋日题窦员外崇德里新居</text:p>
+   <text:p text:style-name="P18">28.休暇日访王侍御不遇</text:p>
    <text:h text:style-name="P68" text:outline-level="2">试题</text:h>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">1.羌村三首（其二） </text:h>
    <text:p text:style-name="P23">羌村三首（其二） </text:p>
@@ -791,7 +869,7 @@
    <text:p text:style-name="P23">赖知禾黍收，已觉糟床注。</text:p>
    <text:p text:style-name="P23">如今足斟酌，且用慰迟暮。</text:p>
    <text:p text:style-name="P22"><text:s text:c="2"/>[注]公元 757 年，诗人言事触怒肃宗，被迫回到因战乱十余月未通音信的羌村，与家小相聚，写下《羌村三首》。糟床，榨酒的器具。 </text:p>
-   <text:p text:style-name="P22">9.简要赏析“娇儿不离膝，畏我复却去”两句的表达效果。（5 分） </text:p>
+   <text:p text:style-name="P22">9.简要赏析“娇儿不离膝，畏我复却去”两句的<text:span text:style-name="T35">表达</text:span>效果。（5 分） </text:p>
    <text:p text:style-name="P22">10.古人评点：诗人“身虽到家，而心实忧国”。请结合后八句诗，简要分析这样评说的原因。（6 分） </text:p>
    <text:p text:style-name="P22"/>
    <text:p text:style-name="P22">答案：</text:p>
@@ -825,15 +903,15 @@
    <text:p text:style-name="P23">岂计休无日，惟应尽此生。</text:p>
    <text:p text:style-name="P23">何惭刺客传，不著报雠名。</text:p>
    <text:p text:style-name="P22">9. 本读前六句是怎样运用对比手法勾勒精卫形象的？请简要分析。</text:p>
-   <text:p text:style-name="P22">10. 诗歌后六句表达了作者什么样的人生态度？</text:p>
+   <text:p text:style-name="P22">10. 诗歌后六句<text:span text:style-name="T35">表达</text:span>了作者什么样的人生态度？</text:p>
    <text:p text:style-name="P22">【答案】</text:p>
    <text:p text:style-name="P22">9. “终年”与“寸诚”对比，表现了决心之坚；细石与大海对比，表现了抱负之大；任务重与性命轻对比，表现了命运之悲。</text:p>
    <text:p text:style-name="P22">10. 独抒己见，不随大流；但求尽力，不计结果；贵在实干，无意显名。</text:p>
    <text:p text:style-name="P22">【解析】</text:p>
    <text:p text:style-name="P22">【9题详解】</text:p>
-   <text:p text:style-name="P22">本题考査考生对诗歌表达技巧的把握能力。这类题目，考查学生对诗句的理解能力，同时也考查对诗句内容、技巧以的把握能力，内容涉及对诗歌的表达技技巧的鉴赏。解答此类题目，首先要审题，即明确题目的具体要求，然后注意了解诗歌的创作背景，并逐句翻译诗句，把握诗歌的意象，分析诗歌营造的意境，思考诗歌中运用的表现手法，最后有条理的按照题目要求整理出答案即可。本题要求简要分析诗歌前六句怎样运用对比手法勾勒精卫形象。已经明确了手法是对比手法，只需要找出对比手法，并且分析对比手法怎样勾勒精卫形象即可。诗歌中“山石细”和“海波平”两词形成对比，嘴里衔着山上的细石，决心把滔滔的海浪填平，从中表现“精卫”的雄心壮志和坚强的意志；“抱寸诚”的决心“衔细石”的举动与“海波平”的宏图大愿形成巨大反差，在对比中充分表现精卫的心诚志坚。</text:p>
+   <text:p text:style-name="P22">本题考査考生对诗歌<text:span text:style-name="T35">表达</text:span>技巧的把握能力。这类题目，考查学生对诗句的理解能力，同时也考查对诗句内容、技巧以的把握能力，内容涉及对诗歌的<text:span text:style-name="T35">表达</text:span>技技巧的鉴赏。解答此类题目，首先要审题，即明确题目的具体要求，然后注意了解诗歌的创作背景，并逐句翻译诗句，把握诗歌的意象，分析诗歌营造的意境，思考诗歌中运用的表现手法，最后有条理的按照题目要求整理出答案即可。本题要求简要分析诗歌前六句怎样运用对比手法勾勒精卫形象。已经明确了手法是对比手法，只需要找出对比手法，并且分析对比手法怎样勾勒精卫形象即可。诗歌中“山石细”和“海波平”两词形成对比，嘴里衔着山上的细石，决心把滔滔的海浪填平，从中表现“精卫”的雄心壮志和坚强的意志；“抱寸诚”的决心“衔细石”的举动与“海波平”的宏图大愿形成巨大反差，在对比中充分表现精卫的心诚志坚。</text:p>
    <text:p text:style-name="P22">【10题详解】</text:p>
-   <text:p text:style-name="P22">本题考査学生对诗歌思想感情的把握能力。这类题目，考查学生对诗句的理解能力，同时也考查对诗句内容以及情感的把握能力，涉及对诗歌思想感情的鉴赏。解答此类题目，首先要审题，即明确题目的具体要求，然后注意了解诗歌的创作背景，并逐句翻译诗句，把握诗歌的意象，分析诗歌营造的意境，领悟作者表达的思想情感，最后有条理的按照题目要求整理出答案即可。题目要求结合诗歌后六句分析诗歌表达了作者怎样的人生态度。诗中“人皆”与“我独”形成对比，表现了作者傲然不屈于俗见的鲜明态度；“岂计”“惟应”体现出作者对精卫坚持不懈的奋斗精神的肯定，侧面表现了作者孜孜以求毫不妥协的人生追求；尾联作者以“精卫”与刺客相类比，再次表达了对积极进取、锲而不舍的精神品质的褒扬与欣赏。</text:p>
+   <text:p text:style-name="P22">本题考査学生对诗歌思想感情的把握能力。这类题目，考查学生对诗句的理解能力，同时也考查对诗句内容以及情感的把握能力，涉及对诗歌思想感情的鉴赏。解答此类题目，首先要审题，即明确题目的具体要求，然后注意了解诗歌的创作背景，并逐句翻译诗句，把握诗歌的意象，分析诗歌营造的意境，领悟作者<text:span text:style-name="T35">表达</text:span>的思想情感，最后有条理的按照题目要求整理出答案即可。题目要求结合诗歌后六句分析诗歌<text:span text:style-name="T35">表达</text:span>了作者怎样的人生态度。诗中“人皆”与“我独”形成对比，表现了作者傲然不屈于俗见的鲜明态度；“岂计”“惟应”体现出作者对精卫坚持不懈的奋斗精神的肯定，侧面表现了作者孜孜以求毫不妥协的人生追求；尾联作者以“精卫”与刺客相类比，再次<text:span text:style-name="T35">表达</text:span>了对积极进取、锲而不舍的精神品质的褒扬与欣赏。</text:p>
    <text:p text:style-name="P22"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">4.登裴秀才迪小台</text:h>
    <text:p text:style-name="P23">登裴秀才迪小台</text:p>
@@ -844,7 +922,7 @@
    <text:p text:style-name="P23">好客多乘月，应门莫上关。</text:p>
    <text:p text:style-name="P22">(1)“满目望云山”句中“望”字一作“空”，你认为这两个字用哪个更好？请说明理由。</text:p>
    <text:p text:style-name="P22">答案“望”：照应题目中的“登台”，引出后面描写的景物。或“空”：①营造空旷的意境；②流露出超然心态。</text:p>
-   <text:p text:style-name="P22">(2)诗眼是诗歌中表达情感最精练传神的词语，这首诗的诗眼是什么？为什么？请简要分析。</text:p>
+   <text:p text:style-name="P22">(2)诗眼是诗歌中<text:span text:style-name="T35">表达</text:span>情感最精练传神的词语，这首诗的诗眼是什么？为什么？请简要分析。</text:p>
    <text:p text:style-name="P22">答案这首诗的诗眼是“闲”字。①景之闲，山林自在，鸟儿悠然，秋原无忧。②心之闲，诗人在道友裴迪的亭台上，遥望远山，赏飞鸟落日，与山林相伴，闲适自得。③境之闲，诗歌营造了一个安闲的诗境，境界安闲，人心安闲，表现了诗人寄情山水、与友相谐，远离人世争斗的宁静心境与诗意境界。</text:p>
    <text:p text:style-name="P22"><text:soft-page-break/></text:p>
    <text:p text:style-name="P22"/>
@@ -867,7 +945,7 @@
    <text:p text:style-name="P22"/>
    <text:p text:style-name="P22">答案： </text:p>
    <text:p text:style-name="P22">（1）①把兔丝自身前后命运进行对比，依附荆榛时茂密繁盛，荆榛被砍，兔丝也受牵连；②把兔丝和桂树、珊瑚等“灵物”进行对比，兔丝因依附而死，不明不白，灵物独立明达。 </text:p>
-   <text:p text:style-name="P22">（2）①人生要独立、正行。②以兔丝隐喻攀附者，表达了对他们的批判与警告。③以围绕荆榛形成的生态圈隐喻奸邪、污浊的官场，表达警惕、鄙视之意。 </text:p>
+   <text:p text:style-name="P22">（2）①人生要独立、正行。②以兔丝隐喻攀附者，<text:span text:style-name="T35">表达</text:span>了对他们的批判与警告。③以围绕荆榛形成的生态圈隐喻奸邪、污浊的官场，<text:span text:style-name="T35">表达</text:span>警惕、鄙视之意。 </text:p>
    <text:p text:style-name="P22"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">6.乌栖曲</text:h>
    <text:p text:style-name="P23">乌栖曲</text:p>
@@ -893,12 +971,12 @@
    <text:p text:style-name="P23">年年喜见山长在，日日悲看水独流。</text:p>
    <text:p text:style-name="P23">猿狖何曾离暮岭，鸬鹚空自泛寒洲。</text:p>
    <text:p text:style-name="P23">谁堪登望云烟里，向晚茫茫发旅愁。</text:p>
-   <text:p text:style-name="P22">9．简要分析颔联和颈联的表达效果。</text:p>
-   <text:p text:style-name="P22">10．根据全诗，概括作者所表达的思想感情。</text:p>
+   <text:p text:style-name="P22">9．简要分析颔联和颈联的<text:span text:style-name="T35">表达</text:span>效果。</text:p>
+   <text:p text:style-name="P22">10．根据全诗，概括作者所<text:span text:style-name="T35">表达</text:span>的思想感情。</text:p>
    <text:p text:style-name="P22"/>
    <text:p text:style-name="P22"><text:s/></text:p>
    <text:p text:style-name="P22">答案：</text:p>
-   <text:p text:style-name="P22">9．拟人；将万岁楼人格化，万岁楼喜见和悲看着山川和江水；选取猿狖、鸬鹚等典型意象，渲染了凄凉的氛围；借景抒情，表达了时间流逝江山依旧的感慨；为尾联抒发情感做了铺垫。</text:p>
+   <text:p text:style-name="P22">9．拟人；将万岁楼人格化，万岁楼喜见和悲看着山川和江水；选取猿狖、鸬鹚等典型意象，渲染了凄凉的氛围；借景抒情，<text:span text:style-name="T35">表达</text:span>了时间流逝江山依旧的感慨；为尾联抒发情感做了铺垫。</text:p>
    <text:p text:style-name="P22">10．独在异乡的漂泊之感，羁旅之思；感叹时光流逝（答“年华老去”也可以）；世事变幻的沧桑之感。</text:p>
    <text:p text:style-name="P22"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">8.秋夜曲</text:h>
@@ -925,8 +1003,8 @@
    <text:p text:style-name="P24">所嗟事业晚，岂惜颜色衰。</text:p>
    <text:p text:style-name="P24">庙谋今谓何，胡马日以肥！</text:p>
    <text:p text:style-name="P27">（注）本诗作于庆历二年（1042年），当时西夏入侵，宋军大败，而契丹则趁机勒索。苏子美，即苏舜钦，诗人好友。</text:p>
-   <text:p text:style-name="P27">9．请简要赏析这首诗前十句的表达效果。</text:p>
-   <text:p text:style-name="P27">10．诗歌后六句表达了作者什么样的情感？</text:p>
+   <text:p text:style-name="P27">9．请简要赏析这首诗前十句的<text:span text:style-name="T35">表达</text:span>效果。</text:p>
+   <text:p text:style-name="P27">10．诗歌后六句<text:span text:style-name="T35">表达</text:span>了作者什么样的情感？</text:p>
    <text:p text:style-name="P27"><text:soft-page-break/></text:p>
    <text:p text:style-name="P27">答</text:p>
    <text:p text:style-name="P27">9．以“庭树改色”“秋风”照应“立秋”；情景交融，描写了秋天夜晚的景色，富有画面感，流露出对自然与人生的感慨，引出下文对复杂情感的抒发。</text:p>
@@ -934,33 +1012,33 @@
    <text:p text:style-name="P27"/>
    <text:p text:style-name="P27">【解析】</text:p>
    <text:p text:style-name="P27">【分析】</text:p>
-   <text:p text:style-name="P27">9．本题考查鉴赏诗句的表达效果的能力。解答此类题，可以从以下几个方面入手：内容上，分析诗句描写的景象和表现的思想感情；结构上，考虑与标题和上文有无照应，考虑对下文有无照应、铺垫；表现手法上，看有无运用表现手法，如动静结合、情景交融、虚实结合等。</text:p>
+   <text:p text:style-name="P27">9．本题考查鉴赏诗句的<text:span text:style-name="T35">表达</text:span>效果的能力。解答此类题，可以从以下几个方面入手：内容上，分析诗句描写的景象和表现的思想感情；结构上，考虑与标题和上文有无照应，考虑对下文有无照应、铺垫；表现手法上，看有无运用表现手法，如动静结合、情景交融、虚实结合等。</text:p>
    <text:p text:style-name="P27">从内容上，前十句写庭树改色，秋风动枝，万物凋谢，天气转凉，云月昏暗，星移斗转，作者徜徉其间，描绘出一幅秋天夜晚的景色，“物情未必尔，我意先己悽。虽恐芳节谢，犹欣早凉归”中“悽”“恐”“欣”，流露出对自然与人生的感慨；从结构上，“庭树忽改色，秋风动其枝”，开篇紧扣标题中的“立秋”，形成照应，前十句对秋景的描绘和对自然与人生的感慨，为下文作者复杂情感的抒发作铺垫，起到引出的作用；从表现手法上，前十句扣住“庭树”“秋风”“云月”“星斗”等景物，将作者的情感寄寓在秋景的描绘中，情景交融。</text:p>
    <text:p text:style-name="P27">10．本题考查鉴赏诗歌思想情感的能力。鉴赏作者思想感情，可借助于“三看三抓法”答题，即看标题、看作者、看注释；抓诗眼（或词眼）、抓主旨、抓意象特征。组织答案时，要用能够准确表现作者情感特点和情感基调的词语来概括作者的思想感情。平时要积累一些常见的诗歌情感规范用语。</text:p>
    <text:p text:style-name="P27">原文“故人在千里，岁月令我悲”，友人远在千里之外，岁月流逝令人内心悲伤，可概括出“对友人的思念”“对时光流逝、人生易老的感叹”；原文“所嗟事业晚，岂惜颜色衰”，嗟叹事业难成，哪里会顾惜容貌的衰老，可概括出“欲有所作为却事业难成的无奈”；“庙谋今谓何，胡马日以肥”，朝廷如何谋划战事，胡人的马一天天的强壮起来，结合注释“当时西夏入侵，宋军大败，而契丹则趁机勒索”，可概括出“对国家内忧外患局面的担忧”。 </text:p>
    <text:p text:style-name="P28"/>
-   <text:h text:style-name="P84" text:outline-level="3"><text:span text:style-name="T25">10.</text:span><text:span text:style-name="T27">宿山寺</text:span></text:h>
+   <text:h text:style-name="P84" text:outline-level="3"><text:span text:style-name="T24">10.</text:span><text:span text:style-name="T26">宿山寺</text:span></text:h>
    <text:p text:style-name="P63">宿山寺</text:p>
    <text:p text:style-name="P63">项斯</text:p>
    <text:p text:style-name="P63">栗叶重重复翠微，黄昏溪上语人稀。</text:p>
    <text:p text:style-name="P63">月明古寺客初到，风度闲门僧未归。</text:p>
    <text:p text:style-name="P63">山果经霜多自落，水萤穿竹不停飞。</text:p>
    <text:p text:style-name="P63">中宵能得几时睡，又被钟声催著衣。</text:p>
-   <text:p text:style-name="P65"><text:span text:style-name="T28">（</text:span><text:span text:style-name="T26">1</text:span><text:span text:style-name="T28">）简述本诗的行文思路。（</text:span><text:span text:style-name="T26">5</text:span><text:span text:style-name="T28">分）</text:span></text:p>
-   <text:p text:style-name="P65"><text:span text:style-name="T28">（</text:span><text:span text:style-name="T26">2</text:span><text:span text:style-name="T28">）分析“山果经霜多自落，水萤穿竹不停飞”一联的表达效果。（</text:span><text:span text:style-name="T26">4</text:span><text:span text:style-name="T28">分）</text:span></text:p>
+   <text:p text:style-name="P65"><text:span text:style-name="T27">（</text:span><text:span text:style-name="T25">1</text:span><text:span text:style-name="T27">）简述本诗的行文思路。（</text:span><text:span text:style-name="T25">5</text:span><text:span text:style-name="T27">分）</text:span></text:p>
+   <text:p text:style-name="P65"><text:span text:style-name="T27">（</text:span><text:span text:style-name="T25">2</text:span><text:span text:style-name="T27">）分析“山果经霜多自落，水萤穿竹不停飞”一联的</text:span><text:span text:style-name="T36">表达</text:span><text:span text:style-name="T27">效果。（</text:span><text:span text:style-name="T25">4</text:span><text:span text:style-name="T27">分）</text:span></text:p>
    <text:p text:style-name="P65"/>
    <text:p text:style-name="P64">答案：</text:p>
-   <text:p text:style-name="P65"><text:span text:style-name="T26">10</text:span><text:span text:style-name="T28">．（</text:span><text:span text:style-name="T26">1</text:span><text:span text:style-name="T28">）以时间为顺序（黄昏——月明——中宵），首联写山寺所处的环境，颔联写初到山寺，颈联写夜宿山寺的所闻所见，尾联写诗人的感想。（</text:span><text:span text:style-name="T26">5</text:span><text:span text:style-name="T28">分，每点</text:span><text:span text:style-name="T26">1</text:span><text:span text:style-name="T28">分）</text:span><text:span text:style-name="T26"><text:line-break/></text:span><text:span text:style-name="T28">（</text:span><text:span text:style-name="T26">2</text:span><text:span text:style-name="T28">）山果落地的声音，飞舞的萤火虫，反衬出山间夜晚的静寂；（</text:span><text:span text:style-name="T26">1</text:span><text:span text:style-name="T28">分）表现诗人彻夜不寐，孤独疲惫的情状；（</text:span><text:span text:style-name="T26">1</text:span><text:span text:style-name="T28">分）山果无人问津、自生自落，萤火虫没有目标、不停歇的飞舞，暗含诗人忧郁怨愤的人生感慨。（</text:span><text:span text:style-name="T26">2</text:span><text:span text:style-name="T28">分）</text:span></text:p>
+   <text:p text:style-name="P65"><text:span text:style-name="T25">10</text:span><text:span text:style-name="T27">．（</text:span><text:span text:style-name="T25">1</text:span><text:span text:style-name="T27">）以时间为顺序（黄昏——月明——中宵），首联写山寺所处的环境，颔联写初到山寺，颈联写夜宿山寺的所闻所见，尾联写诗人的感想。（</text:span><text:span text:style-name="T25">5</text:span><text:span text:style-name="T27">分，每点</text:span><text:span text:style-name="T25">1</text:span><text:span text:style-name="T27">分）</text:span><text:span text:style-name="T25"><text:line-break/></text:span><text:span text:style-name="T27">（</text:span><text:span text:style-name="T25">2</text:span><text:span text:style-name="T27">）山果落地的声音，飞舞的萤火虫，反衬出山间夜晚的静寂；（</text:span><text:span text:style-name="T25">1</text:span><text:span text:style-name="T27">分）表现诗人彻夜不寐，孤独疲惫的情状；（</text:span><text:span text:style-name="T25">1</text:span><text:span text:style-name="T27">分）山果无人问津、自生自落，萤火虫没有目标、不停歇的飞舞，暗含诗人忧郁怨愤的人生感慨。（</text:span><text:span text:style-name="T25">2</text:span><text:span text:style-name="T27">分）</text:span></text:p>
    <text:p text:style-name="P28"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3"><text:soft-page-break/>11.关河令</text:h>
    <text:p text:style-name="P33">关河令</text:p>
    <text:p text:style-name="P48">周邦彦①</text:p>
    <text:p text:style-name="P48">秋阴时作渐向暝。变一庭凄冷。伫听寒声②，云深无雁影③。</text:p>
    <text:p text:style-name="P48">更深人去寂静。但照壁孤灯相映。酒已都醒，如何消夜永！</text:p>
-   <text:p text:style-name="P50"><text:span text:style-name="T28">【注】①周邦彦（</text:span><text:span text:style-name="T26">1056-1121</text:span><text:span text:style-name="T28">）：字美成，号清真居士，钱塘（今浙江杭州）人。②寒声：指秋声，如风声、落叶声、虫鸣声等。③雁：古人认为雁能传书。</text:span></text:p>
-   <text:p text:style-name="P50"><text:span text:style-name="T26">(1)</text:span><text:span text:style-name="T28">从上、下两阙的首句看，这首词是以什么为线索来写的？请简要说明。</text:span></text:p>
+   <text:p text:style-name="P50"><text:span text:style-name="T27">【注】①周邦彦（</text:span><text:span text:style-name="T25">1056-1121</text:span><text:span text:style-name="T27">）：字美成，号清真居士，钱塘（今浙江杭州）人。②寒声：指秋声，如风声、落叶声、虫鸣声等。③雁：古人认为雁能传书。</text:span></text:p>
+   <text:p text:style-name="P50"><text:span text:style-name="T25">(1)</text:span><text:span text:style-name="T27">从上、下两阙的首句看，这首词是以什么为线索来写的？请简要说明。</text:span></text:p>
    <text:p text:style-name="P49">答：是以时间推移为线索写的。上阕写的情景发生在日间“渐向暝”时；下阕写作者难以入眠的情景已经推移至更深、人去、夜寂静时。</text:p>
-   <text:p text:style-name="P50"><text:span text:style-name="T26">(2)</text:span><text:span text:style-name="T28">简要分析作者在这首词中所表现的心情。</text:span></text:p>
+   <text:p text:style-name="P50"><text:span text:style-name="T25">(2)</text:span><text:span text:style-name="T27">简要分析作者在这首词中所表现的心情。</text:span></text:p>
    <text:p text:style-name="P49">答：作者在词中表现了思家、孤寂的心情。上阕写作者站在庭院等候亲人的消息，但盼来的只是“无雁影”；下阕写作者本想借酒浇愁，酒醒之后，却愁上加愁，于是感叹不已，使孤栖之愁更深一层。</text:p>
    <text:p text:style-name="P28"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">12.<text:span text:style-name="T30">归朝欢·和苏坚伯固</text:span></text:h>
@@ -974,19 +1052,19 @@
    <text:p text:style-name="P42"/>
    <text:p text:style-name="P42">(1)概括这首词上片的行文思路。</text:p>
    <text:p text:style-name="P42">(2)“梦中游、觉来清赏，同作飞梭掷”一句中用了哪种修辞手法？请作简要说明。</text:p>
-   <text:p text:style-name="P42">（3）结合词句，分析词人在下片中表达了哪些思想感情。</text:p>
+   <text:p text:style-name="P42">（3）结合词句，分析词人在下片中<text:span text:style-name="T35">表达</text:span>了哪些思想感情。</text:p>
    <text:p text:style-name="P42"/>
    <text:p text:style-name="P42">参考答案</text:p>
    <text:p text:style-name="P42">(1)先写梦中泛舟震泽、波浪滔天的景象，再写眼前庐山倚天雄奇的景象，最后感慨人生到处奔波的境遇。</text:p>
    <text:p text:style-name="P42">(2)比喻。以“飞梭掷”喻梦中迷离幻象、眼前庐山清景，随着短暂相聚的友人即将离去而转瞬即逝。</text:p>
-   <text:p text:style-name="P42">（3）①“泪沾臆”，表达因友人离别的伤感之情；②“君才如梦得”，表达对友人才情的肯定、赞美之情；③“灵均去后楚山空，澧阳兰芷无颜色”、“谁谓古今隔”，表达对友人创造出与屈原、刘禹锡比肩的作品的劝勉、期许之情。</text:p>
+   <text:p text:style-name="P42">（3）①“泪沾臆”，<text:span text:style-name="T35">表达</text:span>因友人离别的伤感之情；②“君才如梦得”，<text:span text:style-name="T35">表达</text:span>对友人才情的肯定、赞美之情；③“灵均去后楚山空，澧阳兰芷无颜色”、“谁谓古今隔”，<text:span text:style-name="T35">表达</text:span>对友人创造出与屈原、刘禹锡比肩的作品的劝勉、期许之情。</text:p>
    <text:p text:style-name="P44"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">13.望蓟门</text:h>
    <text:p text:style-name="P70">望蓟门</text:p>
    <text:p text:style-name="P70">祖 咏</text:p>
    <text:p text:style-name="P70">燕台一去客心惊，笳鼓喧喧汉将营。万里寒光生积雪，三边曙色动危旌。</text:p>
    <text:p text:style-name="P70"><text:soft-page-break/>沙场烽火连胡月，海畔云山拥蓟城。少小虽非投笔吏，论功还欲请长缨。</text:p>
-   <text:p text:style-name="P74"><text:span text:style-name="T29">【注释】<text:line-break/>①燕台：原为战国时燕昭王所筑的黄金台，这里代称燕地，泛指边塞重镇平卢、范阳一带地区。<text:line-break/>②三边：泛指边疆。危旌：高挂的旗帜。<text:line-break/>③投笔吏：东汉班超在官府中抄写公文，后来投笔从戎。<text:line-break/>④请长缨：西汉书生终军向皇帝请求用长缨缚番王来朝。<text:line-break/></text:span>4.全诗紧扣“望”字展开，请简要概括这首诗的构思脉络。3分<text:line-break/>【答案】先总写登台远望的感受，1分<text:line-break/>接着写远望之景，1分<text:line-break/>最后写由望产生的壮情。1分 <text:span text:style-name="T29"><text:line-break/></text:span></text:p>
+   <text:p text:style-name="P74"><text:span text:style-name="T28">【注释】<text:line-break/>①燕台：原为战国时燕昭王所筑的黄金台，这里代称燕地，泛指边塞重镇平卢、范阳一带地区。<text:line-break/>②三边：泛指边疆。危旌：高挂的旗帜。<text:line-break/>③投笔吏：东汉班超在官府中抄写公文，后来投笔从戎。<text:line-break/>④请长缨：西汉书生终军向皇帝请求用长缨缚番王来朝。<text:line-break/></text:span>4.全诗紧扣“望”字展开，请简要概括这首诗的构思脉络。3分<text:line-break/>【答案】先总写登台远望的感受，1分<text:line-break/>接着写远望之景，1分<text:line-break/>最后写由望产生的壮情。1分 <text:span text:style-name="T28"><text:line-break/></text:span></text:p>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">14.和裴迪登蜀州东亭送客逢早梅相忆见寄</text:h>
    <text:p text:style-name="P70">和裴迪登蜀州东亭送客逢早梅相忆见寄①</text:p>
    <text:p text:style-name="P70">杜甫</text:p>
@@ -995,7 +1073,7 @@
    <text:p text:style-name="P70">幸不折来伤岁暮，若为看去乱乡愁。</text:p>
    <text:p text:style-name="P70">江边一树垂垂发，朝夕催人自白头。</text:p>
    <text:p text:style-name="P71">【注】①裴迪寄了一首题为“登蜀州东亭送客逢早梅”的诗给杜甫，表示了对杜甫的怀念；杜甫深受感动，便写诗作答。②何逊是杜甫佩服的南朝梁诗人，这里把裴迪与何逊相比，表示对裴迪和他的诗的推崇。③“此时”正是安史叛军气焰嚣张、大唐帝国万方多难之际。</text:p>
-   <text:p text:style-name="P71">5.有人说“忆”字是全诗关键，请简要分析。（3分）<text:line-break/>【答案】前两联“忆”遥领故人对自己的相忆，故人送客见雪见梅情不自禁“忆”起我，表达了对故人思念自己的深深谢意和心心相印的情谊。（2分）<text:line-break/>后两联围绕裴迪“忆”诗中所叙写的事（梅）抒写自己的种种愁情。（1分） </text:p>
+   <text:p text:style-name="P71">5.有人说“忆”字是全诗关键，请简要分析。（3分）<text:line-break/>【答案】前两联“忆”遥领故人对自己的相忆，故人送客见雪见梅情不自禁“忆”起我，<text:span text:style-name="T35">表达</text:span>了对故人思念自己的深深谢意和心心相印的情谊。（2分）<text:line-break/>后两联围绕裴迪“忆”诗中所叙写的事（梅）抒写自己的种种愁情。（1分） </text:p>
    <text:p text:style-name="Standard"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">15.<text:span text:style-name="T31">春日忆李白</text:span></text:h>
    <text:p text:style-name="P45">春日忆李白</text:p>
@@ -1027,9 +1105,9 @@
    <text:p text:style-name="P29">（3）试分析下片后两句的抒情特色及效果。（4分）</text:p>
    <text:p text:style-name="P29"/>
    <text:p text:style-name="P29">参考答案：</text:p>
-   <text:p text:style-name="P29">⑴通过梅花、桃花和梨花的依次开落来表达时序变迁。突出等候之久，为下文抒发怅惘之情作铺垫。（3分）</text:p>
+   <text:p text:style-name="P29">⑴通过梅花、桃花和梨花的依次开落来<text:span text:style-name="T35">表达</text:span>时序变迁。突出等候之久，为下文抒发怅惘之情作铺垫。（3分）</text:p>
    <text:p text:style-name="P29">⑵通过时时倚楼望远，偷偷拭泪的细节，刻画了痴情而哀怨的闺中女子形象。（3分）</text:p>
-   <text:p text:style-name="P29">⑶托物抒情，借埋怨蜘蛛喜鹊多次误传喜讯，表达了自己久盼不归的失望，从侧面体现出思念之殷切，委婉动人。（4分）</text:p>
+   <text:p text:style-name="P29">⑶托物抒情，借埋怨蜘蛛喜鹊多次误传喜讯，<text:span text:style-name="T35">表达</text:span>了自己久盼不归的失望，从侧面体现出思念之殷切，委婉动人。（4分）</text:p>
    <text:p text:style-name="P29"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">18.桂州腊夜</text:h>
    <text:p text:style-name="P75">桂州腊夜</text:p>
@@ -1068,7 +1146,7 @@
    <text:p text:style-name="P75">一日三秋，寸肠千结。敢向青天问明月。算应无恨，安用暂圆还缺?愿人长似，月圆时节。</text:p>
    <text:p text:style-name="Standard">(1)“杨花如雪”这—写景句在词中有什么作用?请简要分析。(3分)</text:p>
    <text:p text:style-name="Standard">(2)请简要说明这首词上阕的行文思路。(4分)</text:p>
-   <text:p text:style-name="Standard">(3)“一日三秋，寸肠千结”句运用了什么修辞手法?表达了怎样的思想感情?(3分)</text:p>
+   <text:p text:style-name="Standard">(3)“一日三秋，寸肠千结”句运用了什么修辞手法?<text:span text:style-name="T35">表达</text:span>了怎样的思想感情?(3分)</text:p>
    <text:p text:style-name="Standard"/>
    <text:p text:style-name="Standard"/>
    <text:p text:style-name="Standard">答案：</text:p>
@@ -1099,16 +1177,16 @@
    <text:p text:style-name="P75">明朝烟雨桐江岸，且占丹枫系钓舟。</text:p>
    <text:p text:style-name="Standard">[注]①迮：狭窄。</text:p>
    <text:p text:style-name="Standard">8.根据中间两联，概况作者“愁”的原因。（6分）</text:p>
-   <text:p text:style-name="Standard">9.简要赏析尾联的表达效果。（6分）</text:p>
+   <text:p text:style-name="Standard">9.简要赏析尾联的<text:span text:style-name="T35">表达</text:span>效果。（6分）</text:p>
    <text:p text:style-name="Standard"/>
    <text:p text:style-name="Standard">答案：</text:p>
    <text:p text:style-name="Standard">8. 1）因醉后独倚高阁，天地狭小、国家残败、偏安一隅而愁。诗人酒后独倚高楼，感叹无奈愁苦于国家在战争中的节节败退，领土不断丧失。</text:p>
    <text:p text:style-name="Standard">2）因年迈多病而愁。中年多病，时光易逝，迫近晚年。</text:p>
    <text:p text:style-name="Standard">3）因报国无门，无人赏识而愁。诗人虽深经百战，却不得重用。</text:p>
    <text:p text:style-name="Standard">4）因国家战火不断而愁。诗人深夜无眠，战争中的画角声声不断，不禁无奈悲苦。（任答一点两分）</text:p>
-   <text:p text:style-name="Standard">9．尾联运用虚写、想象、以景结情的手法。以“丹枫”照应“秋”；寓情于景，想象自己将来烟雨垂钓的画面，表达了自己隐逸的愿望，也暗含报国无门、无人赏识、山河破碎的无奈和苦闷之情。</text:p>
+   <text:p text:style-name="Standard">9．尾联运用虚写、想象、以景结情的手法。以“丹枫”照应“秋”；寓情于景，想象自己将来烟雨垂钓的画面，<text:span text:style-name="T35">表达</text:span>了自己隐逸的愿望，也暗含报国无门、无人赏识、山河破碎的无奈和苦闷之情。</text:p>
    <text:p text:style-name="Standard">考点定位：评价文学作品的思想内容和作者的观点态度。能力层级为鉴赏评价D。</text:p>
-   <text:p text:style-name="Standard">（试题分析：解答本题之前，应先审题，明确考查的方向，“赏析尾联的表达效果”，“赏析”是考查诗歌的语言，“尾联”又暗示了思考的方向。作为诗歌的尾联和尾句，一般有如下特点：直抒胸臆和以景结情，运用典故和想象（虚写）。</text:p>
+   <text:p text:style-name="Standard">（试题分析：解答本题之前，应先审题，明确考查的方向，“赏析尾联的<text:span text:style-name="T35">表达</text:span>效果”，“赏析”是考查诗歌的语言，“尾联”又暗示了思考的方向。作为诗歌的尾联和尾句，一般有如下特点：直抒胸臆和以景结情，运用典故和想象（虚写）。</text:p>
    <text:p text:style-name="Standard"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">23.八声甘州</text:h>
    <text:p text:style-name="P75">八声甘州</text:p>
@@ -1118,39 +1196,17 @@
    <text:p text:style-name="P91">谁向桑麻杜曲，要短衣匹马，移住南山？看风流慷慨，谈笑过残年②。汉开边、功名万里，甚当时、健者也曾闲。纱窗外、斜风细雨，一阵轻寒。</text:p>
    <text:p text:style-name="Standard">注：①杨民瞻，辛弃疾的友人。②杜甫《曲江三章》其三：“自断此生休问天，杜曲幸有桑麻田，故将移住南山边。短衣匹马随李广，看射猛虎终残年。</text:p>
    <text:p text:style-name="Standard">阅读下面这首宋词，完成10-11题。</text:p>
-   <text:p text:style-name="Standard">10．本词上阙选取了李广的哪些事迹？这样选材有什么表达效果？（5分）</text:p>
+   <text:p text:style-name="Standard">10．本词上阙选取了李广的哪些事迹？这样选材有什么<text:span text:style-name="T35">表达</text:span>效果？（5分）</text:p>
    <text:p text:style-name="Standard">11．下阙寄寓了作者什么样的思想情感？请简要分析。（6分）</text:p>
    <text:p text:style-name="Standard"><text:s text:c="3"/></text:p>
    <text:p text:style-name="Standard">10．</text:p>
-   <text:p text:style-name="Standard">【答案】上阕叙述了：①李广罢官闲居时同友人在田间饮酒后回归，被势利的醉酒霸陵校尉呵止，只好在亭下止宿；②李广单人独骑横山射虎；③李广劳苦而不得功勋，英勇而反遭罢黜。这样的表达效果：<text:soft-page-break/>①表现了作者对势利小人的愤慨以及对李广朴实性格的赞赏；②表现李广胆气之壮和武功之强；③表现了朝政的昏暗。</text:p>
+   <text:p text:style-name="Standard">【答案】上阕叙述了：①李广罢官闲居时同友人在田间饮酒后回归，被势利的醉酒霸陵校尉呵止，只好在亭下止宿；②李广单人独骑横山射虎；③李广劳苦而不得功勋，英勇而反遭罢黜。这样的<text:span text:style-name="T35">表达</text:span>效果：<text:soft-page-break/>①表现了作者对势利小人的愤慨以及对李广朴实性格的赞赏；②表现李广胆气之壮和武功之强；③表现了朝政的昏暗。</text:p>
    <text:p text:style-name="Standard">【解析】</text:p>
    <text:p text:style-name="Standard">试题分析：解答此题，首先读懂诗句大意，然后再根据诗句意思归纳概括。本词上阕聊聊数语，约略叙述了李广的事迹。据《史记》载，李广罢官闲居时，“尝夜从一骑出，从人田间饮。还至霸陵亭。霸陵尉醉，呵止广。广骑曰：‘故李将军。’尉曰：‘今将军尚不得夜行，何乃故也！’止广宿亭下。”这里特别突出“故将军”一语，表现了作者对势利的霸陵尉势的愤慨。同时，词中直接把司马迁对李广的赞辞“桃李无言，下自成蹊”当作李广的代称，表示了对李广朴实性格的赞赏。《史记》又载：“广出猎，见草中石，以为虎而射之。中石，没镞。视之，石也。”“射虎”二句即写此事。单人独骑横山射虎，可见胆气之豪；弓弦惊响而矢发裂石，可见筋力之健。李广如此健者而被废弃，又可见当时朝政之昏暗。《史记》又载：：“自汉击匈奴，广未尝不在其中，而诸部校尉以下，才能不及中人，然以击胡军功取侯者数十人，而广不为后人，然无尺寸之功以得封邑者何也？”词中“落魄”二句即指此事。劳苦而不得功勋，英勇而反遭罢黜，进一步说明朝政之黑暗，作者只用数十字便勾画出了人物的性格特征和生平主要事迹，且写得有声有色，生动传神。</text:p>
-   <text:p text:style-name="Standard">考点：鉴赏文学作品的表达技巧。能力层级为鉴赏评价D。</text:p>
+   <text:p text:style-name="Standard">考点：鉴赏文学作品的<text:span text:style-name="T35">表达</text:span>技巧。能力层级为鉴赏评价D。</text:p>
    <text:p text:style-name="Standard">11．</text:p>
-   <text:p text:style-name="Standard">【答案】下阕先以杜甫思慕李广之心，隐喻晁、杨亲爱自己之意，盛赞晁、杨不以穷达异交的高风，表现了作者宠辱不惊、无所悔恨的坚强自信。“汉开边、功名万里，甚当时、健者也曾闲”一句，借汉言宋，感慨极深沉，讽刺极强烈。一是汉时开边拓境，健如李广者本不当投闲，然竟亦投闲，可见邪曲之害公、方正之不容，乃古今之通病，正不必为之怅恨；二是汉时征战不休，健如李广者尚且弃而不用，今日求和讳战，固当斥退一切勇夫，更不必为之嗟叹。这从反面立意，表达了作者痛恨朝政腐败，进奸佞而逐贤良，深恐国势更趋衰弱的心情。“纱窗外、斜风细雨，一阵轻寒”一语隐喻奸佞之人的阴险和卑劣，并以点明题语所云“夜读”情事。</text:p>
+   <text:p text:style-name="Standard">【答案】下阕先以杜甫思慕李广之心，隐喻晁、杨亲爱自己之意，盛赞晁、杨不以穷达异交的高风，表现了作者宠辱不惊、无所悔恨的坚强自信。“汉开边、功名万里，甚当时、健者也曾闲”一句，借汉言宋，感慨极深沉，讽刺极强烈。一是汉时开边拓境，健如李广者本不当投闲，然竟亦投闲，可见邪曲之害公、方正之不容，乃古今之通病，正不必为之怅恨；二是汉时征战不休，健如李广者尚且弃而不用，今日求和讳战，固当斥退一切勇夫，更不必为之嗟叹。这从反面立意，<text:span text:style-name="T35">表达</text:span>了作者痛恨朝政腐败，进奸佞而逐贤良，深恐国势更趋衰弱的心情。“纱窗外、斜风细雨，一阵轻寒”一语隐喻奸佞之人的阴险和卑劣，并以点明题语所云“夜读”情事。</text:p>
    <text:p text:style-name="Standard">考点：评价文学作品的思想内容和作者的观点态度。能力层级为鉴赏评价D。</text:p>
-   <text:p text:style-name="Standard"/>
-   <text:h text:style-name="Heading_20_3" text:outline-level="3">24.学诸进士作精卫衔石填海</text:h>
-   <text:p text:style-name="P75">学诸进士作精卫衔石填海</text:p>
-   <text:p text:style-name="P75">韩 愈</text:p>
-   <text:p text:style-name="P75">鸟有偿冤者，终年抱寸诚。</text:p>
-   <text:p text:style-name="P75">口衔山石细，心望海波平。</text:p>
-   <text:p text:style-name="P75">渺渺功难见，区区命已轻。</text:p>
-   <text:p text:style-name="P75">人皆讥造次，我独赏专精。</text:p>
-   <text:p text:style-name="P75">岂计休无日，惟应尽此生。</text:p>
-   <text:p text:style-name="P75">何惭刺客传，不著报雠名。</text:p>
-   <text:p text:style-name="Standard">9. 本读前六句是怎样运用对比手法勾勒精卫形象的？请简要分析。</text:p>
-   <text:p text:style-name="Standard">10. 诗歌后六句表达了作者什么样的人生态度？</text:p>
-   <text:p text:style-name="Standard"/>
-   <text:p text:style-name="Standard"/>
-   <text:p text:style-name="Standard">【答案】</text:p>
-   <text:p text:style-name="Standard">9. “终年”与“寸诚”对比，表现了决心之坚；细石与大海对比，表现了抱负之大；任务重与性命轻对比，表现了命运之悲。 </text:p>
-   <text:p text:style-name="Standard">10. 独抒己见，不随大流；但求尽力，不计结果；贵在实干，无意显名。</text:p>
-   <text:p text:style-name="Standard">【解析】</text:p>
-   <text:p text:style-name="Standard">【9题详解】</text:p>
-   <text:p text:style-name="Standard">本题考査考生对诗歌表达技巧的把握能力。这类题目，考查学生对诗句的理解能力，同时也考查对诗句内容、技巧以的把握能力，内容涉及对诗歌的表达技技巧的鉴赏。解答此类题目，首先要审题，即明确题目的具体要求，然后注意了解诗歌的创作背景，并逐句翻译诗句，把握诗歌的意象，分析诗歌营造的<text:soft-page-break/>意境，思考诗歌中运用的表现手法，最后有条理的按照题目要求整理出答案即可。本题要求简要分析诗歌前六句怎样运用对比手法勾勒精卫形象。已经明确了手法是对比手法，只需要找出对比手法，并且分析对比手法怎样勾勒精卫形象即可。诗歌中“山石细”和“海波平”两词形成对比，嘴里衔着山上的细石，决心把滔滔的海浪填平，从中表现“精卫”的雄心壮志和坚强的意志；“抱寸诚”的决心“衔细石”的举动与“海波平”的宏图大愿形成巨大反差，在对比中充分表现精卫的心诚志坚。</text:p>
-   <text:p text:style-name="Standard">【10题详解】</text:p>
-   <text:p text:style-name="Standard">本题考査学生对诗歌思想感情的把握能力。这类题目，考查学生对诗句的理解能力，同时也考查对诗句内容以及情感的把握能力，涉及对诗歌思想感情的鉴赏。解答此类题目，首先要审题，即明确题目的具体要求，然后注意了解诗歌的创作背景，并逐句翻译诗句，把握诗歌的意象，分析诗歌营造的意境，领悟作者表达的思想情感，最后有条理的按照题目要求整理出答案即可。题目要求结合诗歌后六句分析诗歌表达了作者怎样的人生态度。诗中“人皆”与“我独”形成对比，表现了作者傲然不屈于俗见的鲜明态度；“岂计”“惟应”体现出作者对精卫坚持不懈的奋斗精神的肯定，侧面表现了作者孜孜以求毫不妥协的人生追求；尾联作者以“精卫”与刺客相类比，再次表达了对积极进取、锲而不舍的精神品质的褒扬与欣赏。</text:p>
    <text:p text:style-name="Standard"/>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">25.寄和州刘使君</text:h>
    <text:p text:style-name="P75">寄和州刘使君①</text:p>
@@ -1159,7 +1215,7 @@
    <text:p text:style-name="P75">晓来江气连城白，雨后山光满郭青。到此诗情应更远，醉中高咏有谁听?</text:p>
    <text:p text:style-name="Standard">[注]①刘使君，指唐代诗人刘禹锡，时任和州刺史。诗中沙口堰、水心亭，均在和州。</text:p>
    <text:p text:style-name="Standard">10．根据前两联，概括刘禹锡“闲”的表现，并分析他如此表现的原因。（5分）</text:p>
-   <text:p text:style-name="Standard">11．尾联表达了作者什么样的情感？（6分）</text:p>
+   <text:p text:style-name="Standard">11．尾联<text:span text:style-name="T35">表达</text:span>了作者什么样的情感？（6分）</text:p>
    <text:p text:style-name="Standard"/>
    <text:p text:style-name="Standard">答案：</text:p>
    <text:p text:style-name="Standard">10．表现：把酒当春，绕道送客，常去赏花。原因：长期得不到升迁，怀才不遇；喜欢自然山水。</text:p>
@@ -1173,14 +1229,14 @@
    <text:p text:style-name="P75">世味门常掩，时光簟已便。</text:p>
    <text:p text:style-name="P75">梦中频得句，拈笔又忘筌。</text:p>
    <text:p text:style-name="Standard">注：唐庚，北宋文学家，此诗为其谪居惠州时所作。</text:p>
-   <text:p text:style-name="Standard">(l)说明“山静似太古”一句的含意。（2分）</text:p>
+   <text:p text:style-name="Standard"><text:soft-page-break/>(l)说明“山静似太古”一句的含意。（2分）</text:p>
    <text:p text:style-name="Standard">答：用远古时期的宁静写出山中的幽静。</text:p>
-   <text:p text:style-name="Standard">(2)“世味门常掩，时光簟已便”一联表达了诗人什么样的心境？（4分）</text:p>
-   <text:p text:style-name="Standard">答：表达了厌恶官场、追求恬淡的心境。</text:p>
+   <text:p text:style-name="Standard">(2)“世味门常掩，时光簟已便”一联<text:span text:style-name="T35">表达</text:span>了诗人什么样的心境？（4分）</text:p>
+   <text:p text:style-name="Standard">答：<text:span text:style-name="T35">表达</text:span>了厌恶官场、追求恬淡的心境。</text:p>
    <text:p text:style-name="Standard">(3)《宋诗钞》中说唐庚的诗“芒焰在简淡之中”，即平淡的背后往往蕴藏着激烈情感，试结合本诗作简要分析。（4分）</text:p>
    <text:p text:style-name="Standard">答：“门掩世味”、“拈笔忘筌”暗含诗人难忘世事，透露幽愤不平之气；全诗却以“山”、“馀花”、“好鸟”等闲适悠远的意象，形成一种简朴的风格，意味平淡深长。</text:p>
    <text:p text:style-name="Standard"/>
-   <text:h text:style-name="Heading_20_3" text:outline-level="3"><text:soft-page-break/>27.秋日题窦员外崇德里新居</text:h>
+   <text:h text:style-name="Heading_20_3" text:outline-level="3">27.秋日题窦员外崇德里新居</text:h>
    <text:p text:style-name="P75">秋日题窦员外崇德里新居</text:p>
    <text:p text:style-name="P75">刘禹锡</text:p>
    <text:p text:style-name="P75">长爱街西风景闲，到君居处暂开颜。</text:p>
@@ -1193,7 +1249,7 @@
    <text:p text:style-name="Standard">（2）简要赏析颔联、颈联的写景艺术。（4分）</text:p>
    <text:p text:style-name="Standard">答案：选取景物，铺陈描摹；移步换景，富有层次（由远及近、由外而内）；虚实结合，寓情于景。</text:p>
    <text:p text:style-name="Standard">【思路点拨】两联选取“一渠水”“数点山”“碧松”“红药”等景物进行铺陈描摹；颔联写院外的远景，颈联写院内的近景；这两联前三句是实景，第四句是虚景。</text:p>
-   <text:p text:style-name="Standard">（3）尾联表达了作者什么样的情感。（3分）</text:p>
+   <text:p text:style-name="Standard">（3）尾联<text:span text:style-name="T35">表达</text:span>了作者什么样的情感。（3分）</text:p>
    <text:p text:style-name="Standard">答案：赞美恭维之意；羡慕向往之情；志趣相同之感。</text:p>
    <text:p text:style-name="Standard">【思路点拨】根据“诗人在此间”（原来诗人在此间），可以表现出诗人对窦员外的恭维之意；根据“在此间”，可以表现出诗人的向往之情；诗人和窦员外都喜欢诗歌，诗人和窦员外都喜欢闲适，可以表现出他们志趣相同。</text:p>
    <text:p text:style-name="P89"/>
@@ -1210,13 +1266,13 @@
    <text:p text:style-name="Standard">⑴请简要分析第一首诗中作者情绪的变化过程。（3分）</text:p>
    <text:p text:style-name="Standard">【答案】乘兴而往——怅惘不遇——欣赏叹慕</text:p>
    <text:p text:style-name="Standard">【解析】“九日驱驰”是欣然前往的，“寻君不遇又空还”是怅恼的，友人“诗思清人骨”是值得欣赏的。认真把握、解读每句诗，情感的体悟应该没有什么问题。</text:p>
-   <text:p text:style-name="Standard">【评点】关于情感变化的题型，江苏已经命制几次了，最为典型的&apos;是2013年命制的岳飞《满江红?登黄鹤楼有感》中的一题：词的开头写作者登黄鹤楼遥望中原，结尾说“再续汉阳游，骑黄鹤”，反映出作者的思想感情有何变化？如此题型，应给予学生好好地训练。</text:p>
+   <text:p text:style-name="Standard"><text:soft-page-break/>【评点】关于情感变化的题型，江苏已经命制几次了，最为典型的&apos;是2013年命制的岳飞《满江红?登黄鹤楼有感》中的一题：词的开头写作者登黄鹤楼遥望中原，结尾说“再续汉阳游，骑黄鹤”，反映出作者的思想感情有何变化？如此题型，应给予学生好好地训练。</text:p>
    <text:p text:style-name="Standard">⑵第二首诗中从哪些地方可看出“隐者”的身份？请简要概括。（3分）</text:p>
    <text:p text:style-name="Standard">【答案】城里少有人知；家住深山；与渔樵为伍；居室简陋。</text:p>
    <text:p text:style-name="Standard">【解析】“城郭休过识者稀”，是言不要经过城郭，因为认识他的人少；“哀猿啼处”，是言他住在深山老林里，不然哪里来的“猿啼”；（此句有点深）“柴扉”，是言他家居简陋；“渔樵路”，是言他过着渔樵生活，是隐也；“日暮归来雨满衣”，是言他完全与山相融也，亦隐也。</text:p>
    <text:p text:style-name="Standard">【评点】此题亦是好题，考查考生对诗歌信息的捕捉能力，如果连这点能力尚且缺乏，那就无甚言语了。</text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/>⑶请分别赏析两首诗结句的表达效果。（5分）</text:p>
-   <text:p text:style-name="Standard">【答案】第一首诗的结句，友人的家门前寒风阵阵，正对家门的山满覆白雪，从触觉、视觉的角度写出了友人住处清冷的环境，一是揭示前句友人诗风的成因，二是象征友人清廉高洁的品性；第二首诗的结句，傍晚回来，山雨打湿了所有的衣衫，想像（或虚写）友人整天与山为伍、与自然相融的隐逸情趣，（或者从作者角度作答亦可）表达作者对友人隐逸生活的羡慕之情。</text:p>
+   <text:p text:style-name="Standard">⑶请分别赏析两首诗结句的<text:span text:style-name="T35">表达</text:span>效果。（5分）</text:p>
+   <text:p text:style-name="Standard">【答案】第一首诗的结句，友人的家门前寒风阵阵，正对家门的山满覆白雪，从触觉、视觉的角度写出了友人住处清冷的环境，一是揭示前句友人诗风的成因，二是象征友人清廉高洁的品性；第二首诗的结句，傍晚回来，山雨打湿了所有的衣衫，想像（或虚写）友人整天与山为伍、与自然相融的隐逸情趣，（或者从作者角度作答亦可）<text:span text:style-name="T35">表达</text:span>作者对友人隐逸生活的羡慕之情。</text:p>
    <text:p text:style-name="Standard">【评点】此题亦好，不刁钻，应适合考生的口味。</text:p>
    <text:p text:style-name="Standard">【总评】两首小诗，比较出题，各有特点，既开拓考生视野，又检验学生的生活实际，相当不错。</text:p>
    <text:p text:style-name="P88"/>
@@ -1240,8 +1296,8 @@
    <text:p text:style-name="Standard">在怀古咏史诗赏析时，要注意下面几点：</text:p>
    <text:p text:style-name="Standard">①要弄清史实，作者“怀”什么“古”；</text:p>
    <text:p text:style-name="Standard">②要体会意图，作者为什么怀古；</text:p>
-   <text:p text:style-name="Standard">③要领悟感情，作者在怀古中表达了什么感情；</text:p>
-   <text:p text:style-name="Standard">A、称颂、仰慕英雄，赞扬古人建功立业的事迹，表达自己渴望建功立业的雄心。</text:p>
+   <text:p text:style-name="Standard">③要领悟感情，作者在怀古中<text:span text:style-name="T35">表达</text:span>了什么感情；</text:p>
+   <text:p text:style-name="Standard">A、称颂、仰慕英雄，赞扬古人建功立业的事迹，<text:span text:style-name="T35">表达</text:span>自己渴望建功立业的雄心。</text:p>
    <text:p text:style-name="Standard">B、以古讽今，讽谕现实；昔盛今衰的黍黎之悲</text:p>
    <text:p text:style-name="Standard">C、自比自况，感慨个人遭遇；抒怀才不遇、报国无门的情感等</text:p>
    <text:p text:style-name="Standard">D、不要重蹈前人覆辙</text:p>
