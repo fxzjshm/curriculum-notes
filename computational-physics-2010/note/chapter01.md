@@ -39,15 +39,15 @@
     * (1.7) 或 表1.2
     * $$
     \begin{aligned} 
-        \Rightarrow \int_{-h}^{h} f(x){\rm d}x & = & \left. f_0 x +{1 \over 2}({{f_{-1} - 2f_0 + f_1} \over h^3}){x^3 \over 3} + O(x^5) \right|_{-h}^{h} \\
-        & = & 2hf_0 + {h \over 3}(f_{-1} - 2f_0 + f_1) + O(h^5) \\
-        & = & {h \over 3}(f_{-1} + 4f_0 + f_1) + O(h^5) \\
+        \Rightarrow \int_{-h}^{h} f(x){\rm d}x & = \left. f_0 x +{1 \over 2}({{f_{-1} - 2f_0 + f_1} \over h^3}){x^3 \over 3} + O(x^5) \right|_{-h}^{h} \\
+        & = 2hf_0 + {h \over 3}(f_{-1} - 2f_0 + f_1) + O(h^5) \\
+        & = {h \over 3}(f_{-1} + 4f_0 + f_1) + O(h^5) \\
     \end{aligned}
     $$
     * $$
     \begin{aligned}
         \int_{a}^{b} f(x){\rm d}x & = \int_{a}^{a+h} f(x){\rm d}x + \int_{a+h}^{a+2h} f(x){\rm d}x + ... +\int_{b-h}^{b} f(x){\rm d}x \\
-        \stackrel{\text{Simpson}}{\longrightarrow} & = {h \over 3} \big( (f(a) + f(a+h) + f(a+2h)) + (f(a+2h) + f(a+3h) + f(a+4h)) + ... + 4f(b-h) + f(b) \big)
+        \stackrel{\text{Simpson}}{\longrightarrow} & = {h \over 3} \big( (f(a) + 4f(a+h) + f(a+2h)) + (f(a+2h) + 4f(a+3h) + f(a+4h)) + ... + 4f(b-h) + f(b) \big)
     \end{aligned}
     $$
 

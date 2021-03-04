@@ -79,7 +79,7 @@ pub fn derivative_4th_5p<F: Fn(f64) -> f64>(f: F, x0: f64, h: f64) -> f64 {
 pub fn derivative_1st() {
     let mut h = 0.5;
     let mut table = Table::new();
-    table.set_titles(row!["h", "derivative_1st_4p_pos", "derivative_1st_4p_neg","derivative_1st_5p"]);
+    table.set_titles(row!["h", "derivative_1st_4p_pos", "derivative_1st_4p_neg", "derivative_1st_5p"]);
     while (h >= 0.00001) {
         table.add_row(row![format!("{:+.5}", h),
                                 format!("{:+.6}", derivative_1st_4p_pos(f, 1.0, h) - f_derivative_1st(1.0)),
@@ -107,7 +107,7 @@ pub fn derivative_2nd() {
 pub fn derivative_3rd() {
     let mut h = 0.5;
     let mut table = Table::new();
-    table.set_titles(row!["h", "derivative_3rd_4p_pos", "derivative_3rd_4p_neg","derivative_3rd_5p"]);
+    table.set_titles(row!["h", "derivative_3rd_4p_pos", "derivative_3rd_4p_neg", "derivative_3rd_5p"]);
     while (h >= 0.00001) {
         table.add_row(row![format!("{:+.5}", h),
                                 format!("{:+.6}", derivative_3rd_4p_pos(f, 1.0, h) - f_derivative_3rd(1.0)),
