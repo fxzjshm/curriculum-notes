@@ -68,3 +68,17 @@
     * 用另一点 $x^{i-1}$ 与 $x^i$ 一起算 $f'(x^i)$ ，i.e. $f'(x^i) \approx {{f(x^{i-1}) - f(x^i)} \over {x^{i-1} - x^i}}$ ，代入得 (2.15)
     * 收敛速率约等于(2)，无需解析导数
 * 注意：当函数 $f(x)$ 在根附近有拐点或有多根时，Newton-Rampson 法与 Secant(割线)法容易失效，此时应该用 Search法大概把根的范围找出，然后再用 Newton-Rampson 法和 Secant(割线)法
+
+## Exercise 1.3
+$$
+\begin{aligned}
+    & \int_0^1 t^{-{2 \over 3}} (1-t)^{-{1 \over 3}} {\rm d}t \\
+  = & \int_0^m t^{-{2 \over 3}} (1-t)^{-{1 \over 3}} {\rm d}t +
+      \int_m^1 t^{-{2 \over 3}} (1-t)^{-{1 \over 3}} {\rm d}t \\
+  = & \int_0^m 3 (1-t)^{-{1 \over 3}} {\rm d}(t^{1 \over 3}) +
+      \int_m^1 -{3 \over 2} t^{-{2 \over 3}} {\rm d}{\big( (1-t)^{2 \over 3} \big) } \\
+  \stackrel{u = t^{1 \over 3} \text{,} s = (1-t)^{2 \over 3}}{\longrightarrow} & 
+      \int_0^{m^{1 \over 3}} 3(1-u^3)^{-{1 \over 3}} {\rm d}u +
+      \int_0^{({1-m})^{2 \over 3}} {3 \over 2} {(1-s^{3 \over 2})}^{-{2 \over 3}} {\rm d}s \\
+\end{aligned}
+$$
