@@ -6,6 +6,7 @@
 #include <memory>
 #include <sstream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -22,6 +23,8 @@ using namespace std;
 template <typename T> struct List {
   public:
     virtual void append(T data) = 0;
+    virtual size_t size() = 0;
+    virtual void delete_at(size_t i) = 0;
 };
 
 template <typename T> struct LinkedListNode {
@@ -34,10 +37,14 @@ template <typename T> struct LinkedListNode {
 };
 
 template <typename T> struct LinkedList : public List<T> {
-  public:
+  private:
     size_t n;
+
+  public:
     std::shared_ptr<LinkedListNode<T>> head;
     std::weak_ptr<LinkedListNode<T>> tail;
+
+    LinkedList() { n = 0; }
 
     void insert_left(std::shared_ptr<LinkedListNode<T>> n3_s, T new_data) {
         // prev<->(new_node)<->node
@@ -72,8 +79,7 @@ template <typename T> struct LinkedList : public List<T> {
 
             if (n3_s) {
                 n3_s.get()->prev = weak_ptr<LinkedListNode<T>>(n2_s);
-                n2_s.get()->next =
-                    std::make_shared<LinkedListNode<T>>(*n3_s.get());
+                n2_s.get()->next = std::shared_ptr<LinkedListNode<T>>(n3_s);
             } else {
                 n2_s.get()->next = nullptr;
                 tail = weak_ptr<LinkedListNode<T>>(n2_s);
@@ -87,11 +93,8 @@ template <typename T> struct LinkedList : public List<T> {
 
     void append(T data) override {
         if (!tail.expired()) {
-            // printf("Not empty list.\n");
             insert_right(tail.lock(), data);
-            // printf("!tail.expired(): %d\n",!tail.expired());
         } else {
-            // printf("Empty list.\n");
             LinkedListNode<T> node = LinkedListNode<T>(data);
             head = make_shared<LinkedListNode<T>>(node);
             tail = weak_ptr<LinkedListNode<T>>(head);
@@ -100,7 +103,30 @@ template <typename T> struct LinkedList : public List<T> {
         n++;
     }
 
-    LinkedList() { n = 0; }
+    size_t size() override { return n; }
+
+    void delete_at(size_t i) override {
+        // n1 <-> [n2] <-> n3
+        std::shared_ptr<LinkedListNode<T>> n2_s = head;
+        while (i--) {
+            if (!n2_s.get()) {
+                panic();
+            }
+            n2_s = n2_s.get()->next;
+        }
+        std::weak_ptr<LinkedListNode<T>> n1_w = n2_s.get()->prev;
+        std::shared_ptr<LinkedListNode<T>> n3_s = n2_s.get()->next;
+        if (n1_w.expired()) { // n2 is head
+            head = std::shared_ptr<LinkedListNode<T>>(n3_s);
+        } else {
+            n1_w.lock().get()->next = std::shared_ptr<LinkedListNode<T>>(n3_s);
+        }
+        if (n3_s.get()) {
+            n3_s.get()->prev = std::weak_ptr<LinkedListNode<T>>(n1_w);
+        } else {
+            tail = std::weak_ptr<LinkedListNode<T>>(n1_w);
+        }
+    }
 };
 
 template <typename T> struct ArrayList : public List<T> {
@@ -150,7 +176,7 @@ template <typename T> struct ArrayList : public List<T> {
         n--;
     }
 
-    T operator[](size_t i) {
+    T &operator[](size_t i) {
         if (0 <= i && i < n) {
             return p_data[i];
         } else {
@@ -158,11 +184,11 @@ template <typename T> struct ArrayList : public List<T> {
         }
     }
 
-    inline size_t size() { return n; }
+    inline size_t size() override { return n; }
 
     void append(T value) override { push_back(value); }
 
-    void delete_at(size_t i) {
+    void delete_at(size_t i) override {
         if (0 <= i && i < n) {
             T *p = p_data.get();
             // Insert cast to suppress -Wdynamic-class-memaccess
@@ -234,7 +260,7 @@ struct Car {
 
     void print_incident_verbose() {
         print_verbose();
-        unsigned int m = incidents.n;
+        unsigned int m = incidents.size();
         printf("违章总数: %d\n", m);
         std::shared_ptr<LinkedListNode<Incident>> p = incidents.head;
         for (int x = 0; x < m; x++) {
@@ -320,7 +346,7 @@ void write_data(string file_name, ArrayList<Car> &list) {
         fprintf(data_file.get(), "%d %s %f %s\n", c.id, c.type.c_str(), c.price,
                 c.driver.c_str());
 
-        unsigned int m = c.incidents.n;
+        unsigned int m = c.incidents.size();
         fprintf(data_file.get(), "%u\n", m);
         std::shared_ptr<LinkedListNode<Incident>> p = c.incidents.head;
         while (m--) {
@@ -341,6 +367,70 @@ void write_data(string file_name, ArrayList<Car> &list) {
 
 } // namespace io
 
+namespace edit_incident_info {
+
+void print_menu() {
+    printf("[edit_incident_info] [Menu] 请输入编号以选择功能: (示例: \"p 0\", "
+           "不含引号)\n");
+    printf("                            [a]: 新增违章记录\n");
+    printf("                            [d 序号]: 删除违章记录\n");
+    printf("                            [e 序号]: 违章记录状态更新\n");
+    printf("                            [q]: 返回上一级\n");
+    printf("> ");
+}
+
+bool select_func(Car &car) {
+    string s;
+    getline(cin, s);
+    stringstream ss;
+    string c; // control flow
+    int i;    // id of car
+    if (s.length()) {
+        ss.clear();
+        ss << s;
+        switch (s[0]) {
+        case 'a':
+            // add_incident(car);
+            break;
+        case 'd':
+            if (ss >> c >> i) {
+                if (0 <= i && i < car.incidents.size()) {
+                    car.incidents.delete_at(i);
+                    printf("[edit_car_info] 已删除序号为 %d 的车辆\n\n", i);
+                } else {
+                    printf("[edit_car_info] 错误: 序号越界\n\n");
+                }
+            } else {
+                printf("[edit_car_info] 错误: 请输入序号\n\n");
+            }
+
+            break;
+        case 'e':
+            break;
+        case 'q':
+            return true;
+        default:
+            break;
+        }
+    }
+
+    return false;
+}
+
+void edit_incident_info(Car &c) {
+    bool quit = false;
+    while (!quit) {
+        printf("[edit_info] 车辆信息:");
+        c.print_verbose();
+        printf("[edit_info] 该车违章信息:");
+        c.print_incident_verbose();
+        print_menu();
+        quit = select_func(c);
+    }
+}
+
+} // namespace edit_incident_info
+
 //////// edit car information
 namespace edit_car_info {
 
@@ -354,12 +444,12 @@ void print_cars_verbose(ArrayList<Car> &list) {
 }
 
 void print_menu() {
-    printf("[edit_info] [Menu] 请输入编号以选择功能: (示例: \"p 0\", "
+    printf("[edit_car_info] [Menu] 请输入编号以选择功能: (示例: \"p 0\", "
            "不含引号)\n");
-    printf("                   [p 序号]: 输出该车的违章记录并操作\n");
-    printf("                   [d 序号]: 删除该车\n");
-    printf("                   [a]: 新增车辆\n");
-    printf("                   [q]: 返回上一级\n");
+    printf("                       [p 序号]: 输出该车的违章记录并操作\n");
+    printf("                       [d 序号]: 删除该车\n");
+    printf("                       [a]: 新增车辆\n");
+    printf("                       [q]: 返回上一级\n");
     printf("> ");
 }
 
@@ -390,25 +480,24 @@ bool select_func(ArrayList<Car> &list) {
         case 'p':
             if (ss >> c >> i) {
                 if (0 <= i && i < list.size()) {
-                    list[i].print_incident_verbose();
-                    // edit_incident_info::edit_incident_info();
+                    edit_incident_info::edit_incident_info(list[i]);
                 } else {
-                    printf("[edit_info] 错误: 序号越界\n\n");
+                    printf("[edit_car_info] 错误: 序号越界\n\n");
                 }
             } else {
-                printf("[edit_info] 错误: 请输入序号\n\n");
+                printf("[edit_car_info] 错误: 请输入序号\n\n");
             }
             break;
         case 'd':
             if (ss >> c >> i) {
                 if (0 <= i && i < list.size()) {
                     list.delete_at(i);
-                    printf("[edit_info] 已删除序号为 %d 的车辆\n\n", i);
+                    printf("[edit_car_info] 已删除序号为 %d 的车辆\n\n", i);
                 } else {
-                    printf("[edit_info] 错误: 序号越界\n\n");
+                    printf("[edit_car_info] 错误: 序号越界\n\n");
                 }
             } else {
-                printf("[edit_info] 错误: 请输入序号\n\n");
+                printf("[edit_car_info] 错误: 请输入序号\n\n");
             }
             break;
         case 'a':
@@ -427,7 +516,7 @@ bool select_func(ArrayList<Car> &list) {
 void edit_car_info(ArrayList<Car> &list) {
     bool quit = false;
     while (!quit) {
-        printf("[edit_info] 已有车辆信息如下：\n");
+        printf("[edit_car_info] 已有车辆信息如下:\n");
         print_cars_verbose(list);
         print_menu();
         quit = select_func(list);
