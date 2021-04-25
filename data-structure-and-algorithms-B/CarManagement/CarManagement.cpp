@@ -24,6 +24,7 @@ template <typename T> struct List {
     virtual void append(T data) = 0;
     virtual size_t size() = 0;
     virtual void delete_at(size_t i) = 0;
+    virtual T &operator[](size_t i) = 0;
 };
 
 template <typename T> struct LinkedListNode {
@@ -106,13 +107,7 @@ template <typename T> struct LinkedList : public List<T> {
 
     void delete_at(size_t i) override {
         // n1 <-> [n2] <-> n3
-        std::shared_ptr<LinkedListNode<T>> n2_s = head;
-        while (i--) {
-            if (!n2_s.get()) {
-                panic();
-            }
-            n2_s = n2_s.get()->next;
-        }
+        std::shared_ptr<LinkedListNode<T>> n2_s = ref(i);
         std::weak_ptr<LinkedListNode<T>> n1_w = n2_s.get()->prev;
         std::shared_ptr<LinkedListNode<T>> n3_s = n2_s.get()->next;
         if (n1_w.expired()) { // n2 is head
@@ -125,7 +120,22 @@ template <typename T> struct LinkedList : public List<T> {
         } else {
             tail = std::weak_ptr<LinkedListNode<T>>(n1_w);
         }
+
+        n--;
     }
+
+    std::shared_ptr<LinkedListNode<T>> ref(size_t i) {
+        std::shared_ptr<LinkedListNode<T>> p = head;
+        while (i--) {
+            if (!p.get()) {
+                panic();
+            }
+            p = p.get()->next;
+        }
+        return p;
+    }
+
+    T &operator[](size_t i) override { return ref(i).get()->data; }
 };
 
 template <typename T> struct ArrayList : public List<T> {
@@ -175,7 +185,7 @@ template <typename T> struct ArrayList : public List<T> {
         n--;
     }
 
-    T &operator[](size_t i) {
+    T &operator[](size_t i) override {
         if (0 <= i && i < n) {
             return p_data[i];
         } else {
@@ -192,8 +202,15 @@ template <typename T> struct ArrayList : public List<T> {
             T *p = p_data.get();
             // Insert cast to suppress -Wdynamic-class-memaccess
             // see https://github.com/MariaDB/server/commit/94bad73
-            memmove((void *)(p + i), (void *)(p + i + 1),
-                    sizeof(T) * (n - i - 1));
+            // memmove((void *)(p + i), (void *)(p + i + 1), sizeof(T) * (n - i
+            // - 1));
+
+            // nope, this don't work. mannually copying
+
+            for (size_t j = i; j < n - 1; j++) {
+                p[j] = p[j + 1];
+            }
+
             n--;
         } else {
             panic();
@@ -210,8 +227,10 @@ const string file_name = "车辆管理数据.txt";
 //////// utilities
 namespace util {
 
-// reference: https://stackoverflow.com/questions/36908994/using-sprintf-with-stdstring-in-c
-template <typename ...Args> string sprintf_cxx(const char* format, Args && ...args){
+// reference:
+// https://stackoverflow.com/questions/36908994/using-sprintf-with-stdstring-in-c
+template <typename... Args>
+string sprintf_cxx(const char *format, Args &&... args) {
     size_t size = snprintf(nullptr, 0, format, std::forward<Args>(args)...);
     char output[size + 1];
     sprintf(&output[0], format, std::forward<Args>(args)...);
@@ -219,11 +238,36 @@ template <typename ...Args> string sprintf_cxx(const char* format, Args && ...ar
     return string(output);
 }
 
-template <typename T> void check_value(T val, T m, T M, string error){
-    if (val < m || val > M){
+template <typename T> void check_value(T val, T m, T M, string error) {
+    if (val < m || val > M) {
         throw runtime_error(error);
     }
 }
+
+void check_date(int year, int month, int day) {
+    check_value(month, 1, 12, "日期错误");
+    check_value(day, 1, 31, "日期错误");
+
+    const int m[2][13] = {
+        {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},
+        {0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},
+    };
+
+    bool b = false;
+    if (year % 400) {
+        b = true;
+    } else if (year % 100) {
+        b = false;
+    } else if (year % 4) {
+        b = true;
+    }
+
+    if (day > m[b][month]) {
+        throw runtime_error("日期错误");
+    }
+}
+
+inline string localize_bool(bool b) { return (b) ? ("是") : ("否"); }
 } // namespace util
 
 //////// Structs & Classes
@@ -240,13 +284,18 @@ struct Time {
         int c1, c2;
         c1 = sscanf(s1.c_str(), "%d-%d-%d", &year, &month, &day);
         c2 = sscanf(s2.c_str(), "%d:%d:%d", &hour, &minute, &second);
-        if(c1!=3||c2!=3){
+        if (c1 != 3 || c2 != 3) {
             throw runtime_error("参数错误");
         }
+        util::check_date(year, month, day);
+        util::check_value(hour, 0, 24, "时间错误");
+        util::check_value(minute, 0, 59, "时间错误");
+        util::check_value(second, 0, 60, "时间错误");
     }
 
     string toString() {
-        return util::sprintf_cxx("%d-%02d-%02d %02d:%02d:%02d", year, month, day, hour, minute, second);
+        return util::sprintf_cxx("%d-%02d-%02d %02d:%02d:%02d", year, month,
+                                 day, hour, minute, second);
     }
 };
 
@@ -258,9 +307,10 @@ struct Incident { // WZ
     std::shared_ptr<Car> p_car;
 
     string toString() {
-        util::sprintf_cxx("时间: %s, 地点: %s, 违章代码: %d, 是否处理: %s\n",
-               time.toString().c_str(), place.c_str(), code,
-               ((ok) ? ("是") : ("否")));
+        return util::sprintf_cxx(
+            "时间: %s, 地点: %s, 违章代码: %d, 是否处理: %s",
+            time.toString().c_str(), place.c_str(), code,
+            util::localize_bool(ok).c_str());
     }
 };
 typedef Incident WZ;
@@ -273,17 +323,17 @@ struct Car {
     LinkedList<Incident> incidents; // WZ
 
     string toString() {
-        return util::sprintf_cxx("车号: %d, 车型: %s, 价格: %.1f, 驾驶员: %s", id, type.c_str(),
-               price, driver.c_str());
+        return util::sprintf_cxx("车号: %d, 车型: %s, 价格: %.1f, 驾驶员: %s",
+                                 id, type.c_str(), price, driver.c_str());
     }
 };
 
 namespace util {
-template <typename T> T input_field(string field_name) {
+template <typename T> T input_field(string field_name, string prefix) {
     stringstream ss;
     string s;
     while (true) {
-        printf("%s: ", field_name.c_str());
+        printf("%s%s: ", prefix.c_str(), field_name.c_str());
         getline(cin, s);
         if (!s.size()) { // read until something is given
             continue;
@@ -300,18 +350,20 @@ template <typename T> T input_field(string field_name) {
     return t;
 }
 
-Time input_time(char *prefix){
+template <typename T> T input_field(string field_name) {
+    return input_field<T>(field_name, "");
+}
+
+Time input_time(string prefix) {
     string date, time;
-    while(true){
-        printf("%s", prefix);
-        date = input_field<decltype(date)>("日期(示例: 1970-01-01)");
-        printf("%s", prefix);
-        time = input_field<decltype(time)>("时间(示例: 00:00:00)");
-        try{
+    while (true) {
+        date = input_field<decltype(date)>(prefix + "日期 (示例: 1970-01-01)");
+        time = input_field<decltype(time)>(prefix + "时间 (示例: 00:00:00)");
+        try {
             Time t = Time(date, time);
             return t;
-        }catch(runtime_error e){
-            printf("[input_time] 错误: 请输入正确的日期与时间\n");
+        } catch (runtime_error e) {
+            printf("[input_time] 错误: 请输入正确的日期与时间: %s\n", e.what());
         }
     }
 }
@@ -385,9 +437,10 @@ void write_data(string file_name, ArrayList<Car> &list) {
 
 } // namespace io
 
+//////// edit incident information
 namespace edit_incident_info {
 
-void print_incidents_verbose(Car& c) {
+void print_incidents_verbose(Car &c) {
     unsigned int m = c.incidents.size();
     printf("[edit_incidnet_info] 违章总数: %d\n", m);
     std::shared_ptr<LinkedListNode<Incident>> p = c.incidents.head;
@@ -396,13 +449,13 @@ void print_incidents_verbose(Car& c) {
             panic();
         }
         Incident i = p.get()->data;
-        printf("                     [%d] %s\n", x, i.toString());
+        printf("                     [%d] %s\n", x, i.toString().c_str());
         p = p.get()->next;
     }
 }
 
 void print_menu() {
-    printf("[edit_incident_info] [Menu] 请输入编号以选择功能: (示例: \"p 0\", "
+    printf("[edit_incident_info] [Menu] 请输入编号以选择功能: (示例: \"e 0\", "
            "不含引号)\n");
     printf("                            [a]: 新增违章记录\n");
     printf("                            [d 序号]: 删除违章记录\n");
@@ -411,19 +464,40 @@ void print_menu() {
     printf("> ");
 }
 
-
-void add_incident(Car& c){
+void add_incident(Car &c) {
     using namespace util;
     Incident i;
     string date, time;
     printf("[edit_incident_info] [add_incident] 请输入:\n");
-    i.time = input_time( /* prefix = */ "                                    ");
-    i.place = input_field<decltype(i.place)>("                                    地点");
-    i.code = input_field<decltype(i.code)>("                                    违章代码");
-    i.ok = input_field<decltype(i.ok)>("                                    是否处理(true/false)");
+    i.time = input_time(
+        /* prefix = */ "                                    ");
+    i.place = input_field<decltype(i.place)>(
+        "                                    地点");
+    i.code = input_field<decltype(i.code)>(
+        "                                    违章代码");
+    // don't set i.ok now. use `e` command later to filp the status
+    // i.ok = input_field<decltype(i.ok)>(
+    //  "                                    是否处理(true/false)");
+    i.ok = false;
     c.incidents.append(i);
     printf("[edit_incident_info] [add_incident] 已添加违章:\n");
-    printf("                                    [%u] %s", (unsigned int)c.incidents.size() - 1, i.toString());
+    printf("                                    [%u] %s\n",
+           (unsigned int)c.incidents.size() - 1, i.toString().c_str());
+}
+
+void delete_incident(Car &c, size_t i) {
+    printf("###############################################################\n");
+    printf("根据《中华人民共和国刑法》第二百八十六条规定，违反国家规定，对计算"
+           "机信息系统中存储、处理或者传输的数据和应用程序进行删除、修改、增加"
+           "的操作构成破坏计算机信息系统罪。后果严重的，处五年以下有期徒刑或者"
+           "拘役；后果特别严重的，处五年以上有期徒刑。\n");
+    printf("###############################################################\n");
+    string s = util::input_field<decltype(s)>("你确定要继续吗？(y/[n])");
+    if (s == "y") {
+        c.incidents.delete_at(i);
+        printf("[edit_car_info] 已删除序号为 %u 的违章\n", (unsigned int)i);
+    }
+    printf("\n");
 }
 
 bool select_func(Car &car) {
@@ -442,8 +516,7 @@ bool select_func(Car &car) {
         case 'd':
             if (ss >> c >> i) {
                 if (0 <= i && i < car.incidents.size()) {
-                    car.incidents.delete_at(i);
-                    printf("[edit_car_info] 已删除序号为 %d 的车辆\n\n", i);
+                    delete_incident(car, i);
                 } else {
                     printf("[edit_car_info] 错误: 序号越界\n\n");
                 }
@@ -454,8 +527,12 @@ bool select_func(Car &car) {
         case 'e':
             if (ss >> c >> i) {
                 if (0 <= i && i < car.incidents.size()) {
-                    
-                    printf("[edit_car_info] 已删除序号为 %d 的\n\n", i);
+                    Incident &inc = car.incidents[i];
+                    inc.ok = (!inc.ok);
+                    printf("[edit_car_info] 已更改序号为 %d 的违章的状态, "
+                           "是否处理: %s -> %s\n\n",
+                           i, util::localize_bool(!inc.ok).c_str(),
+                           util::localize_bool(inc.ok).c_str());
                 } else {
                     printf("[edit_car_info] 错误: 序号越界\n\n");
                 }
@@ -477,7 +554,7 @@ void edit_incident_info(Car &c) {
     bool quit = false;
     while (!quit) {
         printf("[edit_incident_info] 车辆信息: %s\n", c.toString().c_str());
-        printf("[edit_incident_info] 该车违章信息:");
+        printf("[edit_incident_info] 该车违章信息:\n");
         print_incidents_verbose(c);
         print_menu();
         quit = select_func(c);
@@ -493,7 +570,7 @@ void print_cars_verbose(ArrayList<Car> &list) {
     size_t n = list.size();
     for (int i = 0; i < n; i++) {
         Car c = list[i];
-        printf("                [%d] %s", i, c.toString().c_str());
+        printf("                [%d] %s\n", i, c.toString().c_str());
     }
 }
 
@@ -514,10 +591,12 @@ void add_car(ArrayList<Car> &list) {
     c.id = input_field<decltype(c.id)>("                          车号");
     c.type = input_field<decltype(c.type)>("                          车型");
     c.price = input_field<decltype(c.price)>("                          价格");
-    c.driver = input_field<decltype(c.driver)>("                          驾驶员");
+    c.driver =
+        input_field<decltype(c.driver)>("                          驾驶员");
     list.append(c);
     printf("[edit_car_info] [add_car] 已添加车辆:\n");
-    printf("                          [%u] %s\n", (unsigned int)list.size() - 1, c.toString().c_str());
+    printf("                          [%u] %s\n", (unsigned int)list.size() - 1,
+           c.toString().c_str());
 }
 
 bool select_func(ArrayList<Car> &list) {
@@ -634,4 +713,3 @@ int main() {
     }
     return 0;
 }
-
