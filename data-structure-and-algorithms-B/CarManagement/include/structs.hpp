@@ -4,6 +4,8 @@
 
 //////// Structs & Classes
 
+#include <string>
+
 #include "LinkedList.hpp"
 
 using namespace std;

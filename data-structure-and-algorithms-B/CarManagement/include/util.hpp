@@ -4,6 +4,7 @@
 
 #include <cstdio>
 #include <iostream>
+#include <memory>
 #include <sstream>
 #include <string>
 
@@ -19,10 +20,10 @@ namespace util {
 template <typename... Args>
 string sprintf_cxx(const char *format, Args &&... args) {
     size_t size = snprintf(nullptr, 0, format, std::forward<Args>(args)...);
-    char output[size + 1];
+    unique_ptr<char[]> output = unique_ptr<char[]>(new char[size + 1]);
     sprintf(&output[0], format, std::forward<Args>(args)...);
     output[size] = '\0';
-    return string(output);
+    return string(output.get());
 }
 
 template <typename T> void check_value(T val, T m, T M, string error) {
