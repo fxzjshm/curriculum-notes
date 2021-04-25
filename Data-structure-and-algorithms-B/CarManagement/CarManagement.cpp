@@ -6,7 +6,6 @@
 #include <memory>
 #include <sstream>
 #include <string>
-#include <vector>
 
 using namespace std;
 
@@ -208,6 +207,25 @@ template <typename T> struct ArrayList : public List<T> {
 
 const string file_name = "车辆管理数据.txt";
 
+//////// utilities
+namespace util {
+
+// reference: https://stackoverflow.com/questions/36908994/using-sprintf-with-stdstring-in-c
+template <typename ...Args> string sprintf_cxx(const char* format, Args && ...args){
+    size_t size = snprintf(nullptr, 0, format, std::forward<Args>(args)...);
+    char output[size + 1];
+    sprintf(&output[0], format, std::forward<Args>(args)...);
+    output[size] = '\0';
+    return string(output);
+}
+
+template <typename T> void check_value(T val, T m, T M, string error){
+    if (val < m || val > M){
+        throw runtime_error(error);
+    }
+}
+} // namespace util
+
 //////// Structs & Classes
 
 struct Car;
@@ -219,15 +237,16 @@ struct Time {
     Time() {}
 
     Time(string &s1, string &s2) {
-        sscanf(s1.c_str(), "%d-%d-%d", &year, &month, &day);
-        sscanf(s2.c_str(), "%d:%d:%d", &hour, &minute, &second);
+        int c1, c2;
+        c1 = sscanf(s1.c_str(), "%d-%d-%d", &year, &month, &day);
+        c2 = sscanf(s2.c_str(), "%d:%d:%d", &hour, &minute, &second);
+        if(c1!=3||c2!=3){
+            throw runtime_error("参数错误");
+        }
     }
 
     string toString() {
-        stringstream ss;
-        ss << year << "-" << month << "-" << day << " ";
-        ss << hour << ":" << minute << ":" << second;
-        return ss.str();
+        return util::sprintf_cxx("%d-%02d-%02d %02d:%02d:%02d", year, month, day, hour, minute, second);
     }
 };
 
@@ -238,8 +257,8 @@ struct Incident { // WZ
     bool ok;
     std::shared_ptr<Car> p_car;
 
-    void print_verbose() {
-        printf("时间: %s, 地点: %s, 违章代码: %d, 是否处理: %s\n",
+    string toString() {
+        util::sprintf_cxx("时间: %s, 地点: %s, 违章代码: %d, 是否处理: %s\n",
                time.toString().c_str(), place.c_str(), code,
                ((ok) ? ("是") : ("否")));
     }
@@ -253,29 +272,12 @@ struct Car {
     string driver;
     LinkedList<Incident> incidents; // WZ
 
-    void print_verbose() {
-        printf("车号: %d, 车型: %s, 价格: %.1f, 驾驶员: %s\n", id, type.c_str(),
+    string toString() {
+        return util::sprintf_cxx("车号: %d, 车型: %s, 价格: %.1f, 驾驶员: %s", id, type.c_str(),
                price, driver.c_str());
-    }
-
-    void print_incident_verbose() {
-        print_verbose();
-        unsigned int m = incidents.size();
-        printf("违章总数: %d\n", m);
-        std::shared_ptr<LinkedListNode<Incident>> p = incidents.head;
-        for (int x = 0; x < m; x++) {
-            if (!p) {
-                panic();
-            }
-            Incident i = p.get()->data;
-            printf("[%d] ", x);
-            i.print_verbose();
-            p = p.get()->next;
-        }
     }
 };
 
-//////// utilities
 namespace util {
 template <typename T> T input_field(string field_name) {
     stringstream ss;
@@ -296,6 +298,22 @@ template <typename T> T input_field(string field_name) {
     T t;
     ss >> t;
     return t;
+}
+
+Time input_time(char *prefix){
+    string date, time;
+    while(true){
+        printf("%s", prefix);
+        date = input_field<decltype(date)>("日期(示例: 1970-01-01)");
+        printf("%s", prefix);
+        time = input_field<decltype(time)>("时间(示例: 00:00:00)");
+        try{
+            Time t = Time(date, time);
+            return t;
+        }catch(runtime_error e){
+            printf("[input_time] 错误: 请输入正确的日期与时间\n");
+        }
+    }
 }
 } // namespace util
 
@@ -369,6 +387,20 @@ void write_data(string file_name, ArrayList<Car> &list) {
 
 namespace edit_incident_info {
 
+void print_incidents_verbose(Car& c) {
+    unsigned int m = c.incidents.size();
+    printf("[edit_incidnet_info] 违章总数: %d\n", m);
+    std::shared_ptr<LinkedListNode<Incident>> p = c.incidents.head;
+    for (int x = 0; x < m; x++) {
+        if (!p) {
+            panic();
+        }
+        Incident i = p.get()->data;
+        printf("                     [%d] %s\n", x, i.toString());
+        p = p.get()->next;
+    }
+}
+
 void print_menu() {
     printf("[edit_incident_info] [Menu] 请输入编号以选择功能: (示例: \"p 0\", "
            "不含引号)\n");
@@ -377,6 +409,21 @@ void print_menu() {
     printf("                            [e 序号]: 违章记录状态更新\n");
     printf("                            [q]: 返回上一级\n");
     printf("> ");
+}
+
+
+void add_incident(Car& c){
+    using namespace util;
+    Incident i;
+    string date, time;
+    printf("[edit_incident_info] [add_incident] 请输入:\n");
+    i.time = input_time( /* prefix = */ "                                    ");
+    i.place = input_field<decltype(i.place)>("                                    地点");
+    i.code = input_field<decltype(i.code)>("                                    违章代码");
+    i.ok = input_field<decltype(i.ok)>("                                    是否处理(true/false)");
+    c.incidents.append(i);
+    printf("[edit_incident_info] [add_incident] 已添加违章:\n");
+    printf("                                    [%u] %s", (unsigned int)c.incidents.size() - 1, i.toString());
 }
 
 bool select_func(Car &car) {
@@ -390,7 +437,7 @@ bool select_func(Car &car) {
         ss << s;
         switch (s[0]) {
         case 'a':
-            // add_incident(car);
+            add_incident(car);
             break;
         case 'd':
             if (ss >> c >> i) {
@@ -403,9 +450,18 @@ bool select_func(Car &car) {
             } else {
                 printf("[edit_car_info] 错误: 请输入序号\n\n");
             }
-
             break;
         case 'e':
+            if (ss >> c >> i) {
+                if (0 <= i && i < car.incidents.size()) {
+                    
+                    printf("[edit_car_info] 已删除序号为 %d 的\n\n", i);
+                } else {
+                    printf("[edit_car_info] 错误: 序号越界\n\n");
+                }
+            } else {
+                printf("[edit_car_info] 错误: 请输入序号\n\n");
+            }
             break;
         case 'q':
             return true;
@@ -420,10 +476,9 @@ bool select_func(Car &car) {
 void edit_incident_info(Car &c) {
     bool quit = false;
     while (!quit) {
-        printf("[edit_info] 车辆信息:");
-        c.print_verbose();
-        printf("[edit_info] 该车违章信息:");
-        c.print_incident_verbose();
+        printf("[edit_incident_info] 车辆信息: %s\n", c.toString().c_str());
+        printf("[edit_incident_info] 该车违章信息:");
+        print_incidents_verbose(c);
         print_menu();
         quit = select_func(c);
     }
@@ -438,8 +493,7 @@ void print_cars_verbose(ArrayList<Car> &list) {
     size_t n = list.size();
     for (int i = 0; i < n; i++) {
         Car c = list[i];
-        printf("            [%d] ", i);
-        c.print_verbose();
+        printf("                [%d] %s", i, c.toString().c_str());
     }
 }
 
@@ -456,15 +510,14 @@ void print_menu() {
 void add_car(ArrayList<Car> &list) {
     using namespace util;
     Car c;
-    printf("[edit_info] [add_car] 请输入:\n");
-    c.id = input_field<decltype(c.id)>("                      车号");
-    c.type = input_field<decltype(c.type)>("                      车型");
-    c.price = input_field<decltype(c.price)>("                      价格");
-    c.driver = input_field<decltype(c.driver)>("                      驾驶员");
+    printf("[edit_car_info] [add_car] 请输入:\n");
+    c.id = input_field<decltype(c.id)>("                          车号");
+    c.type = input_field<decltype(c.type)>("                          车型");
+    c.price = input_field<decltype(c.price)>("                          价格");
+    c.driver = input_field<decltype(c.driver)>("                          驾驶员");
     list.append(c);
-    printf("[edit_info] [add_car] 已添加车辆:\n");
-    printf("                      [%u] ", (unsigned int)list.size() - 1);
-    c.print_verbose();
+    printf("[edit_car_info] [add_car] 已添加车辆:\n");
+    printf("                          [%u] %s\n", (unsigned int)list.size() - 1, c.toString().c_str());
 }
 
 bool select_func(ArrayList<Car> &list) {
