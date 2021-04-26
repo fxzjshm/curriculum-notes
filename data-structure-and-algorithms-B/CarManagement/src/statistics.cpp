@@ -21,22 +21,23 @@ void print_menu() {
     printf("> ");
 }
 
-LinkedList<Incident> collect_by_(ArrayList<Car> &list, std::function<bool (Incident&)> filter) {
+LinkedList<Incident> collect_by_(ArrayList<Car> &list,
+                                 std::function<bool(Incident &)> filter) {
     LinkedList<Incident> collected;
     size_t n = list.size();
-    for (size_t i = 0; i < n; i++){
+    for (size_t i = 0; i < n; i++) {
         Car &c = list[i];
         size_t m = c.incidents.size();
         std::shared_ptr<LinkedListNode<Incident>> p = c.incidents.head;
-        while (m--){
-            if (!p){
+        while (m--) {
+            if (!p) {
                 panic();
             }
             Incident &incident = p.get()->data;
             if (filter(incident)) {
                 collected.append(incident);
             }
-            p = p.get() -> next;
+            p = p.get()->next;
         }
     }
     return collected;
@@ -45,46 +46,50 @@ LinkedList<Incident> collect_by_(ArrayList<Car> &list, std::function<bool (Incid
 void collect_by_time(ArrayList<Car> &list) {
     Time start, end;
     printf("[statistics] [collect_by_time] 输入起始时间\n");
-    start = util::input_time( /* prefix = */ "                               ");
+    start = util::input_time(/* prefix = */ "                               ");
     printf("[statistics] [collect_by_time] 输入结束时间\n");
-    end = util::input_time( /* prefix = */ "                               ");
-    LinkedList<Incident> collected = collect_by_(list,
-    [&](Incident &incident) -> bool {
-        return (start <= incident.time && incident.time <= end);
-    });
+    end = util::input_time(/* prefix = */ "                               ");
+    LinkedList<Incident> collected =
+        collect_by_(list, [&](Incident &incident) -> bool {
+            return (start <= incident.time && incident.time <= end);
+        });
     printf("[statistics] [collect_by_time] 查询结果:\n");
-    util::print_incidents_verbose(collected, "                               ");
+    util::print_incidents_verbose(collected, "                               ",
+                                  /* with_car = */ true);
     printf("\n");
 }
 
 void collect_by_place(ArrayList<Car> &list, string place) {
-    LinkedList<Incident> collected = collect_by_(list,
-    [&](Incident &incident) -> bool {
-        return (incident.place == place);
-    });
+    LinkedList<Incident> collected =
+        collect_by_(list, [&](Incident &incident) -> bool {
+            return (incident.place == place);
+        });
     printf("[statistics] [collect_by_place] 查询结果:\n");
-    util::print_incidents_verbose(collected, "                                ");
+    util::print_incidents_verbose(collected, "                                ",
+                                  /* with_car = */ true);
     printf("\n");
 }
 
 void collect_by_place(ArrayList<Car> &list) {
-    string place = util::input_field<decltype(place)>("地点", "[statistics] [collect_by_place] ");
+    string place = util::input_field<decltype(place)>(
+        "地点", "[statistics] [collect_by_place] ");
     collect_by_place(list, place);
 }
 
 void collect_by_code(ArrayList<Car> &list, int code) {
-    LinkedList<Incident> collected = collect_by_(list,
-    [&](Incident &incident) -> bool {
-        return (incident.code == code);
-    });
+    LinkedList<Incident> collected =
+        collect_by_(list, [&](Incident &incident) -> bool {
+            return (incident.code == code);
+        });
     printf("[statistics] [collect_by_code] 查询结果:\n");
-    util::print_incidents_verbose(collected, "                               ");
+    util::print_incidents_verbose(collected, "                               ",
+                                  /* with_car = */ true);
     printf("\n");
 }
 
-
 void collect_by_code(ArrayList<Car> &list) {
-    int code = util::input_field<decltype(code)>("违章代码", "[statistics] [collect_by_place] ");
+    int code = util::input_field<decltype(code)>(
+        "违章代码", "[statistics] [collect_by_place] ");
     collect_by_code(list, code);
 }
 
@@ -105,14 +110,14 @@ bool select_func(ArrayList<Car> &list) {
             collect_by_time(list);
             break;
         case 'p':
-            if (ss >> c >> place){
+            if (ss >> c >> place) {
                 collect_by_place(list, place);
             } else {
                 collect_by_place(list);
             }
             break;
         case 'c':
-            if (ss >> c >> code){
+            if (ss >> c >> code) {
                 collect_by_code(list, code);
             } else {
                 collect_by_code(list);
@@ -137,4 +142,4 @@ void statistics(ArrayList<Car> &list) {
     }
 }
 
-}
+} // namespace statistics

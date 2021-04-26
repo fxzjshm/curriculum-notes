@@ -77,7 +77,7 @@ template <typename T> T input_field(string field_name, string prefix) {
             continue;
         }
         ss << s;
-        if (ss >> t){
+        if (ss >> t) {
             break;
         } else {
             printf("[input_field] 错误: 没有读取到有效信息\n");
@@ -100,7 +100,8 @@ inline void print_cars_verbose(ArrayList<Car> &list, string prefix) {
     }
 }
 
-inline void print_incidents_verbose(LinkedList<Incident>& list, string prefix) {
+inline void print_incidents_verbose(LinkedList<Incident> &list, string prefix,
+                                    bool with_car) {
     unsigned int m = list.size();
     printf("%s违章总数: %d\n", prefix.c_str(), m);
     std::shared_ptr<LinkedListNode<Incident>> p = list.head;
@@ -109,9 +110,18 @@ inline void print_incidents_verbose(LinkedList<Incident>& list, string prefix) {
             panic();
         }
         Incident i = p.get()->data;
-        printf("%s[%d] %s\n", prefix.c_str(), x, i.toString().c_str());
+        printf("%s[%d] %s", prefix.c_str(), x, i.toString().c_str());
+        if (with_car) {
+            printf(", %s", i.p_car.get()->toString().c_str());
+        }
+        printf("\n");
+
         p = p.get()->next;
     }
+}
+
+inline void print_incidents_verbose(LinkedList<Incident> &list, string prefix) {
+    print_incidents_verbose(list, prefix, /* with_car = */ false);
 }
 
 } // namespace util
