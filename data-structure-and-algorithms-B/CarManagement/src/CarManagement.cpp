@@ -15,7 +15,8 @@ using namespace std;
 
 //////// Constants
 
-const string file_name = "车辆管理数据.txt";
+// const string file_name = "车辆管理数据.txt";
+const string file_name = "CarManagementData.txt";
 
 //////// main program functions
 namespace main_program {
