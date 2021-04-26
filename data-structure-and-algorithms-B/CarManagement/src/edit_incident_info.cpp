@@ -7,17 +7,7 @@
 namespace edit_incident_info {
 
 void print_incidents_verbose(LinkedList<Incident>& list) {
-    unsigned int m = list.size();
-    printf("[edit_incidnet_info] 违章总数: %d\n", m);
-    std::shared_ptr<LinkedListNode<Incident>> p = list.head;
-    for (int x = 0; x < m; x++) {
-        if (!p) {
-            panic();
-        }
-        Incident i = p.get()->data;
-        printf("                     [%d] %s\n", x, i.toString().c_str());
-        p = p.get()->next;
-    }
+    util::print_incidents_verbose(list, "                     ");
 }
 
 void print_incidents_verbose(Car &c) {
@@ -52,6 +42,7 @@ void add_incident(Car &c) {
     printf("[edit_incident_info] [add_incident] 已添加违章:\n");
     printf("                                    [%u] %s\n",
            (unsigned int)c.incidents.size() - 1, i.toString().c_str());
+    printf("\n");
 }
 
 void delete_incident(Car &c, size_t i) {
@@ -76,6 +67,7 @@ bool select_func(Car &car) {
     string c; // control flow
     int i;    // id of car
     if (s.length()) {
+        ss.str("");
         ss.clear();
         ss << s;
         switch (s[0]) {
@@ -110,6 +102,7 @@ bool select_func(Car &car) {
             }
             break;
         case 'q':
+            printf("\n");
             return true;
         default:
             break;

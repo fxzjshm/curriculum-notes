@@ -36,6 +36,7 @@ LinkedList<Incident> collect_by_(ArrayList<Car> &list, std::function<bool (Incid
             if (filter(incident)) {
                 collected.append(incident);
             }
+            p = p.get() -> next;
         }
     }
     return collected;
@@ -51,7 +52,40 @@ void collect_by_time(ArrayList<Car> &list) {
     [&](Incident &incident) -> bool {
         return (start <= incident.time && incident.time <= end);
     });
-    print_incidents_verbose(collected);
+    printf("[statistics] [collect_by_time] 查询结果:\n");
+    util::print_incidents_verbose(collected, "                               ");
+    printf("\n");
+}
+
+void collect_by_place(ArrayList<Car> &list, string place) {
+    LinkedList<Incident> collected = collect_by_(list,
+    [&](Incident &incident) -> bool {
+        return (incident.place == place);
+    });
+    printf("[statistics] [collect_by_place] 查询结果:\n");
+    util::print_incidents_verbose(collected, "                                ");
+    printf("\n");
+}
+
+void collect_by_place(ArrayList<Car> &list) {
+    string place = util::input_field<decltype(place)>("地点", "[statistics] [collect_by_place] ");
+    collect_by_place(list, place);
+}
+
+void collect_by_code(ArrayList<Car> &list, int code) {
+    LinkedList<Incident> collected = collect_by_(list,
+    [&](Incident &incident) -> bool {
+        return (incident.code == code);
+    });
+    printf("[statistics] [collect_by_code] 查询结果:\n");
+    util::print_incidents_verbose(collected, "                               ");
+    printf("\n");
+}
+
+
+void collect_by_code(ArrayList<Car> &list) {
+    int code = util::input_field<decltype(code)>("违章代码", "[statistics] [collect_by_place] ");
+    collect_by_code(list, code);
 }
 
 bool select_func(ArrayList<Car> &list) {
@@ -60,7 +94,10 @@ bool select_func(ArrayList<Car> &list) {
     stringstream ss;
     string c; // control flow
     int i;    // id of car
+    string place;
+    int code;
     if (s.length()) {
+        ss.str("");
         ss.clear();
         ss << s;
         switch (s[0]) {
@@ -68,12 +105,21 @@ bool select_func(ArrayList<Car> &list) {
             collect_by_time(list);
             break;
         case 'p':
-            // collect_by_place(list);
+            if (ss >> c >> place){
+                collect_by_place(list, place);
+            } else {
+                collect_by_place(list);
+            }
             break;
         case 'c':
-            // collect_by_code(list);
+            if (ss >> c >> code){
+                collect_by_code(list, code);
+            } else {
+                collect_by_code(list);
+            }
             break;
         case 'q':
+            printf("\n");
             return true;
         default:
             break;

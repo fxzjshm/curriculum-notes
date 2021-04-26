@@ -7,11 +7,7 @@
 namespace edit_car_info {
 
 void print_cars_verbose(ArrayList<Car> &list) {
-    size_t n = list.size();
-    for (int i = 0; i < n; i++) {
-        Car c = list[i];
-        printf("                [%d] %s\n", i, c.toString().c_str());
-    }
+    util::print_cars_verbose(list, "                ");
 }
 
 void print_menu() {
@@ -39,6 +35,7 @@ void add_car(ArrayList<Car> &list) {
     printf("[edit_car_info] [add_car] 已添加车辆:\n");
     printf("                          [%u] %s\n", (unsigned int)list.size() - 1,
            c.toString().c_str());
+    printf("\n");
 }
 
 bool select_func(ArrayList<Car> &list) {
@@ -48,12 +45,14 @@ bool select_func(ArrayList<Car> &list) {
     string c; // control flow
     int i;    // id of car
     if (s.length()) {
+        ss.str("");
         ss.clear();
         ss << s;
         switch (s[0]) {
         case 'p':
             if (ss >> c >> i) {
                 if (0 <= i && i < list.size()) {
+                    printf("\n");
                     edit_incident_info::edit_incident_info(list[i]);
                 } else {
                     printf("[edit_car_info] 错误: 序号越界\n\n");
@@ -78,6 +77,7 @@ bool select_func(ArrayList<Car> &list) {
             add_car(list);
             break;
         case 'q':
+            printf("\n");
             return true;
         default:
             break;

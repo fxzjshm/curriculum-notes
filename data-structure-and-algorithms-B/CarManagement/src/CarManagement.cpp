@@ -25,6 +25,7 @@ void exit_without_saving() {
     printf("> ");
     string s;
     getline(cin, s);
+    printf("\n");
     if (s == "y") {
         exit(0);
     }
@@ -35,6 +36,7 @@ void exit_with_saving(ArrayList<Car> &list) {
     printf("> ");
     string s;
     getline(cin, s);
+    printf("\n");
     if (s != "n") {
         io::write_data(file_name, list);
         exit(0);
@@ -53,6 +55,7 @@ void print_menu() {
 void select_func(ArrayList<Car> &list) {
     string s;
     getline(cin, s);
+    printf("\n");
     if (s == "1") {
         edit_car_info::edit_car_info(list);
     } else if (s == "2") {

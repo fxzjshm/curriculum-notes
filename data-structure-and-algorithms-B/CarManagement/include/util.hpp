@@ -8,6 +8,8 @@
 #include <sstream>
 #include <string>
 
+#include "ArrayList.hpp"
+#include "LinkedList.hpp"
 #include "structs.hpp"
 
 using namespace std;
@@ -60,21 +62,27 @@ inline string localize_bool(bool b) { return (b) ? ("是") : ("否"); }
 template <typename T> T input_field(string field_name, string prefix) {
     stringstream ss;
     string s;
+    T t;
     while (true) {
+        ss.str("");
+        ss.clear();
+        s.clear();
         printf("%s%s: ", prefix.c_str(), field_name.c_str());
         getline(cin, s);
         if (!s.size()) { // read until something is given
             continue;
         }
         if (s.find(' ') != string::npos) {
-            printf("[input_field] 错误: 不可以含有空格");
+            printf("[input_field] 错误: 不可以含有空格\n");
             continue;
         }
-        break;
+        ss << s;
+        if (ss >> t){
+            break;
+        } else {
+            printf("[input_field] 错误: 没有读取到有效信息\n");
+        }
     }
-    ss << s;
-    T t;
-    ss >> t;
     return t;
 }
 
@@ -83,6 +91,29 @@ template <typename T> T input_field(string field_name) {
 }
 
 Time input_time(string prefix);
+
+inline void print_cars_verbose(ArrayList<Car> &list, string prefix) {
+    unsigned int n = list.size();
+    printf("%s车辆总数: %d\n", prefix.c_str(), n);
+    for (unsigned int i = 0; i < n; i++) {
+        printf("%s[%d] %s\n", prefix.c_str(), i, list[i].toString().c_str());
+    }
+}
+
+inline void print_incidents_verbose(LinkedList<Incident>& list, string prefix) {
+    unsigned int m = list.size();
+    printf("%s违章总数: %d\n", prefix.c_str(), m);
+    std::shared_ptr<LinkedListNode<Incident>> p = list.head;
+    for (unsigned int x = 0; x < m; x++) {
+        if (!p) {
+            panic();
+        }
+        Incident i = p.get()->data;
+        printf("%s[%d] %s\n", prefix.c_str(), x, i.toString().c_str());
+        p = p.get()->next;
+    }
+}
+
 } // namespace util
 
 #endif // UTIL_HPP
