@@ -2,6 +2,8 @@
 #ifndef COMMON_H
 #define COMMON_H
 
+#include <cstdio>
+
 //////// Common Macros
 
 #define panic()                                                                \

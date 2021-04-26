@@ -6,10 +6,10 @@
 //////// edit incident information
 namespace edit_incident_info {
 
-void print_incidents_verbose(Car &c) {
-    unsigned int m = c.incidents.size();
+void print_incidents_verbose(LinkedList<Incident>& list) {
+    unsigned int m = list.size();
     printf("[edit_incidnet_info] 违章总数: %d\n", m);
-    std::shared_ptr<LinkedListNode<Incident>> p = c.incidents.head;
+    std::shared_ptr<LinkedListNode<Incident>> p = list.head;
     for (int x = 0; x < m; x++) {
         if (!p) {
             panic();
@@ -20,12 +20,16 @@ void print_incidents_verbose(Car &c) {
     }
 }
 
+void print_incidents_verbose(Car &c) {
+    print_incidents_verbose(c.incidents);
+}
+
 void print_menu() {
     printf("[edit_incident_info] [Menu] 请输入编号以选择功能: (示例: \"e 0\", "
            "不含引号)\n");
     printf("                            [a]: 新增违章记录\n");
-    printf("                            [d 序号]: 删除违章记录\n");
     printf("                            [e 序号]: 违章记录状态更新\n");
+    printf("                            [d 序号]: 删除违章记录\n");
     printf("                            [q]: 返回上一级\n");
     printf("> ");
 }
@@ -57,7 +61,7 @@ void delete_incident(Car &c, size_t i) {
            "的操作构成破坏计算机信息系统罪。后果严重的，处五年以下有期徒刑或者"
            "拘役；后果特别严重的，处五年以上有期徒刑。\n");
     printf("###############################################################\n");
-    string s = util::input_field<decltype(s)>("你确定要继续吗？(y/[n])");
+    string s = util::input_field<decltype(s)>("未经允许的操作可能触犯法律，你确定要继续吗？(y/[n])");
     if (s == "y") {
         c.incidents.delete_at(i);
         printf("[edit_car_info] 已删除序号为 %u 的违章\n", (unsigned int)i);

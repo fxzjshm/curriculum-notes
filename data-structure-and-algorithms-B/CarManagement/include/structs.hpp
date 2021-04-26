@@ -21,6 +21,16 @@ struct Time {
     Time(string &s1, string &s2);
 
     string toString();
+
+    bool operator<=(Time &t){
+        return std::tie(year, month, day, hour, minute, second)
+               <= std::tie(t.year, t.month, t.day, t.hour, t.minute, t.second);
+    }
+
+    bool operator>=(Time &t){
+        return std::tie(year, month, day, hour, minute, second)
+               >= std::tie(t.year, t.month, t.day, t.hour, t.minute, t.second);
+    }
 };
 
 struct Incident { // WZ

@@ -17,9 +17,9 @@ void print_cars_verbose(ArrayList<Car> &list) {
 void print_menu() {
     printf("[edit_car_info] [Menu] 请输入编号以选择功能: (示例: \"p 0\", "
            "不含引号)\n");
+    printf("                       [a]: 新增车辆\n");
     printf("                       [p 序号]: 输出该车的违章记录并操作\n");
     printf("                       [d 序号]: 删除该车\n");
-    printf("                       [a]: 新增车辆\n");
     printf("                       [q]: 返回上一级\n");
     printf("> ");
 }
